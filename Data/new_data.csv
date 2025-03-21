@@ -1,0 +1,1001 @@
+Order_ID,Date,Customer_ID,Product_ID,Product_Name,Category,Region,Quantity,Unit_Price,Total_Sales,Month,Month_name,Quarter
+O0001,2024-05-26,C103,P040,Polo Shirt,Men's Wear,Tanta,2,150.11,300.22,5,May,Q2
+O0002,2024-12-08,C180,P049,Jeans,Women's Wear,Mansoura,2,107.32,214.64,12,December,Q4
+O0003,2024-11-25,C093,P044,Boots,Kids' Wear,Tanta,3,139.24,417.73,11,November,Q4
+O0004,2024-10-14,C015,P019,Jacket,Men's Wear,Alex,2,17.92,35.84,10,October,Q4
+O0005,2024-09-19,C107,P042,Belt,Accessories,Tanta,2,26.11,52.22,9,September,Q3
+O0006,2024-11-13,C072,P041,Polo Shirt,Accessories,Nasr City,2,146.1,292.2,11,November,Q4
+O0007,2024-08-06,C189,P037,Scarf,Kids' Wear,Tanta,2,23.7,47.39,8,August,Q3
+O0008,2024-10-05,C021,P006,Skirt,Women's Wear,Tanta,3,23.54,70.62,10,October,Q4
+O0009,2024-07-17,C103,P026,Scarf,Women's Wear,Mansoura,2,12.3,24.6,7,July,Q3
+O0010,2024-10-11,C122,P034,Dress,Women's Wear,Mansoura,2,191.74,383.47,10,October,Q4
+O0011,2024-08-04,C075,P045,Socks,Accessories,Tanta,3,150.13,450.38,8,August,Q3
+O0012,2024-09-18,C088,P006,Skirt,Women's Wear,Nasr City,4,77.12,308.47,9,September,Q3
+O0013,2024-08-17,C117,P037,Scarf,Kids' Wear,Tanta,1,66.34,66.34,8,August,Q3
+O0014,2024-05-21,C100,P033,Sandals,Men's Wear,Tanta,4,76.44,305.77,5,May,Q2
+O0015,2024-05-31,C104,P022,Hat,Women's Wear,Nasr City,3,157.18,471.55,5,May,Q2
+O0016,2024-08-12,C152,P021,Boots,Accessories,Mansoura,1,135.66,135.66,8,August,Q3
+O0017,2024-08-27,C131,P006,Skirt,Women's Wear,Alex,3,45.19,135.56,8,August,Q3
+O0018,2024-09-16,C150,P006,Skirt,Women's Wear,Alex,3,43.08,129.24,9,September,Q3
+O0019,2024-12-14,C053,P048,Sweater,Women's Wear,Nasr City,2,28.7,57.39,12,December,Q4
+O0020,2024-03-20,C002,P004,Shoes,Accessories,Mansoura,1,135.46,135.46,3,March,Q1
+O0021,2024-12-24,C088,P030,Hat,Women's Wear,Alex,2,155.23,310.46,12,December,Q4
+O0022,2024-10-30,C158,P011,Socks,Kids' Wear,Nasr City,1,60.36,60.36,10,October,Q4
+O0023,2024-04-25,C038,P030,Hat,Women's Wear,Alex,3,13.98,41.94,4,April,Q2
+O0024,2024-01-28,C130,P031,Jeans,Men's Wear,Alex,3,25.61,76.84,1,January,Q1
+O0025,2024-09-10,C192,P024,Gloves,Accessories,Tanta,4,193.89,775.57,9,September,Q3
+O0026,2024-11-16,C188,P009,Polo Shirt,Men's Wear,Nasr City,1,66.13,66.13,11,November,Q4
+O0027,2024-05-12,C021,P003,Polo Shirt,Accessories,Tanta,2,156.15,312.3,5,May,Q2
+O0028,2024-11-13,C161,P031,Jeans,Men's Wear,Alex,4,128.69,514.74,11,November,Q4
+O0029,2024-07-16,C058,P040,Polo Shirt,Men's Wear,Nasr City,4,82.57,330.27,7,July,Q3
+O0030,2024-03-22,C022,P037,Scarf,Kids' Wear,Mansoura,4,49.08,196.32,3,March,Q1
+O0031,2024-10-08,C089,P036,Gloves,Kids' Wear,Mansoura,2,33.06,66.13,10,October,Q4
+O0032,2024-02-05,C049,P024,Gloves,Accessories,Tanta,4,126.85,507.41,2,February,Q1
+O0033,2024-11-07,C059,P031,Jeans,Men's Wear,Mansoura,2,157.18,314.36,11,November,Q4
+O0034,2024-09-23,C170,P006,Skirt,Women's Wear,Tanta,4,132.34,529.37,9,September,Q3
+O0035,2024-04-15,C188,P002,Shorts,Kids' Wear,Nasr City,2,110.76,221.51,4,April,Q2
+O0036,2024-11-17,C015,P020,Belt,Men's Wear,Nasr City,3,17.97,53.91,11,November,Q4
+O0037,2024-10-02,C190,P028,Dress,Kids' Wear,Nasr City,3,194.01,582.04,10,October,Q4
+O0038,2024-12-24,C190,P011,Socks,Kids' Wear,Tanta,3,161.76,485.27,12,December,Q4
+O0039,2024-11-01,C175,P004,Shoes,Accessories,Mansoura,3,65.64,196.91,11,November,Q4
+O0040,2024-10-01,C190,P015,Shorts,Kids' Wear,Mansoura,3,196.19,588.58,10,October,Q4
+O0041,2024-02-13,C051,P006,Skirt,Women's Wear,Mansoura,4,124.36,497.43,2,February,Q1
+O0042,2024-02-14,C108,P049,Jeans,Women's Wear,Tanta,4,120.66,482.64,2,February,Q1
+O0043,2024-12-05,C055,P030,Hat,Women's Wear,Tanta,4,152.13,608.54,12,December,Q4
+O0044,2024-05-15,C064,P038,Jeans,Men's Wear,Tanta,2,164.24,328.47,5,May,Q2
+O0045,2024-12-26,C131,P002,Shorts,Kids' Wear,Alex,2,134.73,269.46,12,December,Q4
+O0046,2024-08-12,C051,P015,Shorts,Kids' Wear,Nasr City,2,34.34,68.68,8,August,Q3
+O0047,2024-02-25,C135,P011,Socks,Kids' Wear,Alex,2,74.27,148.54,2,February,Q1
+O0048,2024-06-21,C021,P008,Scarf,Women's Wear,Mansoura,3,186.34,559.01,6,June,Q2
+O0049,2024-09-16,C073,P026,Scarf,Women's Wear,Tanta,3,52.68,158.03,9,September,Q3
+O0050,2024-12-16,C167,P045,Socks,Accessories,Nasr City,3,80.71,242.14,12,December,Q4
+O0051,2024-04-11,C018,P044,Boots,Kids' Wear,Nasr City,1,92.09,92.09,4,April,Q2
+O0052,2024-05-30,C132,P005,Belt,Women's Wear,Alex,4,93.49,373.95,5,May,Q2
+O0053,2024-09-27,C089,P006,Skirt,Women's Wear,Alex,2,126.46,252.92,9,September,Q3
+O0054,2024-04-23,C060,P026,Scarf,Women's Wear,Alex,2,189.18,378.37,4,April,Q2
+O0055,2024-10-17,C014,P004,Shoes,Accessories,Nasr City,3,55.73,167.19,10,October,Q4
+O0056,2024-10-10,C009,P019,Jacket,Men's Wear,Nasr City,2,33.09,66.17,10,October,Q4
+O0057,2024-01-26,C090,P020,Belt,Men's Wear,Tanta,2,47.52,95.04,1,January,Q1
+O0058,2024-07-15,C053,P033,Sandals,Men's Wear,Nasr City,4,178.52,714.06,7,July,Q3
+O0059,2024-06-24,C130,P020,Belt,Men's Wear,Mansoura,3,132.7,398.11,6,June,Q2
+O0060,2024-01-24,C084,P049,Jeans,Women's Wear,Alex,4,64.32,257.29,1,January,Q1
+O0061,2024-05-02,C092,P012,Watch,Women's Wear,Mansoura,1,165.03,165.03,5,May,Q2
+O0062,2024-01-27,C111,P047,Socks,Accessories,Mansoura,1,173.66,173.66,1,January,Q1
+O0063,2024-12-13,C188,P001,Sweater,Accessories,Tanta,1,170.84,170.84,12,December,Q4
+O0064,2024-09-03,C199,P026,Scarf,Women's Wear,Alex,3,184.6,553.79,9,September,Q3
+O0065,2024-11-05,C172,P014,Polo Shirt,Men's Wear,Nasr City,2,57.93,115.85,11,November,Q4
+O0066,2024-03-12,C008,P038,Jeans,Men's Wear,Tanta,3,153.46,460.37,3,March,Q1
+O0067,2024-02-21,C175,P037,Scarf,Kids' Wear,Tanta,3,97.5,292.51,2,February,Q1
+O0068,2024-05-02,C035,P011,Socks,Kids' Wear,Tanta,2,169.98,339.96,5,May,Q2
+O0069,2024-07-10,C081,P036,Gloves,Kids' Wear,Tanta,4,148.41,593.65,7,July,Q3
+O0070,2024-07-30,C164,P013,Jacket,Kids' Wear,Tanta,1,157.53,157.53,7,July,Q3
+O0071,2024-05-27,C050,P043,Belt,Kids' Wear,Alex,4,134.67,538.68,5,May,Q2
+O0072,2024-09-11,C104,P003,Polo Shirt,Accessories,Alex,1,43.71,43.71,9,September,Q3
+O0073,2024-11-09,C132,P033,Sandals,Men's Wear,Mansoura,3,113.56,340.67,11,November,Q4
+O0074,2024-08-23,C002,P006,Skirt,Women's Wear,Tanta,1,197.09,197.09,8,August,Q3
+O0075,2024-05-02,C134,P050,T-Shirt,Kids' Wear,Nasr City,3,188.1,564.31,5,May,Q2
+O0076,2024-10-31,C054,P010,Shoes,Kids' Wear,Nasr City,4,18.2,72.81,10,October,Q4
+O0077,2024-09-18,C106,P005,Belt,Women's Wear,Mansoura,3,41.31,123.94,9,September,Q3
+O0078,2024-10-19,C004,P023,Socks,Kids' Wear,Mansoura,4,35.03,140.11,10,October,Q4
+O0079,2024-12-21,C054,P010,Shoes,Kids' Wear,Tanta,2,147.94,295.87,12,December,Q4
+O0080,2024-11-05,C191,P044,Boots,Kids' Wear,Nasr City,2,165.38,330.76,11,November,Q4
+O0081,2024-01-21,C146,P002,Shorts,Kids' Wear,Tanta,2,50.57,101.13,1,January,Q1
+O0082,2024-09-05,C044,P013,Jacket,Kids' Wear,Mansoura,3,106.11,318.34,9,September,Q3
+O0083,2024-11-28,C162,P040,Polo Shirt,Men's Wear,Mansoura,2,169.73,339.47,11,November,Q4
+O0084,2024-05-01,C190,P002,Shorts,Kids' Wear,Mansoura,1,149.23,149.23,5,May,Q2
+O0085,2024-03-26,C014,P020,Belt,Men's Wear,Tanta,4,113.03,452.1,3,March,Q1
+O0086,2024-04-12,C095,P001,Sweater,Accessories,Tanta,4,122.17,488.66,4,April,Q2
+O0087,2024-09-24,C048,P037,Scarf,Kids' Wear,Alex,1,106.59,106.59,9,September,Q3
+O0088,2024-04-02,C015,P009,Polo Shirt,Men's Wear,Nasr City,3,66.53,199.6,4,April,Q2
+O0089,2024-10-21,C200,P017,Scarf,Accessories,Tanta,3,117.35,352.06,10,October,Q4
+O0090,2024-10-26,C190,P009,Polo Shirt,Men's Wear,Tanta,4,140.89,563.55,10,October,Q4
+O0091,2024-10-19,C040,P011,Socks,Kids' Wear,Alex,2,175.93,351.86,10,October,Q4
+O0092,2024-04-07,C082,P015,Shorts,Kids' Wear,Alex,3,130.9,392.69,4,April,Q2
+O0093,2024-08-31,C111,P024,Gloves,Accessories,Tanta,3,154.61,463.84,8,August,Q3
+O0094,2024-01-06,C053,P038,Jeans,Men's Wear,Nasr City,1,40.41,40.41,1,January,Q1
+O0095,2024-07-24,C024,P035,Jeans,Men's Wear,Tanta,1,97.7,97.7,7,July,Q3
+O0096,2024-05-23,C154,P030,Hat,Women's Wear,Tanta,2,11.77,23.55,5,May,Q2
+O0097,2024-07-10,C188,P031,Jeans,Men's Wear,Mansoura,3,56.87,170.61,7,July,Q3
+O0098,2024-05-05,C124,P049,Jeans,Women's Wear,Mansoura,3,148.03,444.08,5,May,Q2
+O0099,2024-05-20,C041,P005,Belt,Women's Wear,Alex,1,198.44,198.44,5,May,Q2
+O0100,2024-11-11,C157,P044,Boots,Kids' Wear,Nasr City,3,28.84,86.53,11,November,Q4
+O0101,2024-05-05,C015,P050,T-Shirt,Kids' Wear,Nasr City,4,86.28,345.14,5,May,Q2
+O0102,2024-07-25,C045,P014,Polo Shirt,Men's Wear,Mansoura,1,162.01,162.01,7,July,Q3
+O0103,2024-12-29,C065,P011,Socks,Kids' Wear,Mansoura,2,48.77,97.53,12,December,Q4
+O0104,2024-06-25,C089,P009,Polo Shirt,Men's Wear,New Cairo,1,115.47,115.47,6,June,Q2
+O0105,2024-09-06,C071,P034,Dress,Women's Wear,New Cairo,3,149.28,447.85,9,September,Q3
+O0106,2024-09-03,C009,P012,Watch,Women's Wear,Tanta,2,127.04,254.07,9,September,Q3
+O0107,2024-10-06,C088,P035,Jeans,Men's Wear,New Cairo,1,45.72,45.72,10,October,Q4
+O0108,2024-03-16,C129,P035,Jeans,Men's Wear,New Cairo,4,77.52,310.09,3,March,Q1
+O0109,2024-10-25,C136,P001,Sweater,Accessories,Tanta,4,158.92,635.68,10,October,Q4
+O0110,2024-11-03,C063,P040,Polo Shirt,Men's Wear,Tanta,1,115.3,115.3,11,November,Q4
+O0111,2024-06-14,C139,P022,Hat,Women's Wear,Tanta,4,10.99,43.97,6,June,Q2
+O0112,2024-12-03,C081,P029,Gloves,Men's Wear,Tanta,4,154.59,618.35,12,December,Q4
+O0113,2024-11-03,C136,P008,Scarf,Women's Wear,New Cairo,4,16.71,66.84,11,November,Q4
+O0114,2024-06-22,C163,P011,Socks,Kids' Wear,Tanta,2,151.69,303.38,6,June,Q2
+O0115,2024-04-03,C163,P041,Polo Shirt,Accessories,Alex,4,48.47,193.89,4,April,Q2
+O0116,2024-11-12,C033,P037,Scarf,Kids' Wear,Mansoura,4,192.03,768.14,11,November,Q4
+O0117,2024-07-21,C123,P014,Polo Shirt,Men's Wear,Tanta,4,79.91,319.63,7,July,Q3
+O0118,2024-05-28,C005,P030,Hat,Women's Wear,New Cairo,2,72.12,144.23,5,May,Q2
+O0119,2024-09-30,C041,P035,Jeans,Men's Wear,Mansoura,1,38.29,38.29,9,September,Q3
+O0120,2024-12-14,C028,P021,Boots,Accessories,New Cairo,3,68.06,204.19,12,December,Q4
+O0121,2024-03-28,C135,P037,Scarf,Kids' Wear,Alex,4,176.56,706.25,3,March,Q1
+O0122,2024-02-01,C072,P005,Belt,Women's Wear,Mansoura,1,199.3,199.3,2,February,Q1
+O0123,2024-09-04,C012,P019,Jacket,Men's Wear,Alex,4,79.98,319.92,9,September,Q3
+O0124,2024-02-28,C162,P014,Polo Shirt,Men's Wear,Mansoura,2,95.24,190.47,2,February,Q1
+O0125,2024-02-09,C033,P026,Scarf,Women's Wear,New Cairo,1,147.19,147.19,2,February,Q1
+O0126,2024-07-22,C048,P004,Shoes,Accessories,Alex,2,178.38,356.75,7,July,Q3
+O0127,2024-10-04,C151,P025,Polo Shirt,Women's Wear,Alex,4,122.68,490.71,10,October,Q4
+O0128,2024-09-06,C062,P045,Socks,Accessories,New Cairo,4,84.39,337.56,9,September,Q3
+O0129,2024-12-02,C037,P042,Belt,Accessories,Mansoura,2,88.4,176.8,12,December,Q4
+O0130,2024-11-02,C099,P025,Polo Shirt,Women's Wear,Alex,3,142.17,426.5,11,November,Q4
+O0131,2024-06-25,C172,P018,Sweater,Women's Wear,Mansoura,2,10.61,21.22,6,June,Q2
+O0132,2024-11-12,C104,P040,Polo Shirt,Men's Wear,New Cairo,4,127.72,510.89,11,November,Q4
+O0133,2024-12-25,C035,P008,Scarf,Women's Wear,Tanta,2,77.54,155.09,12,December,Q4
+O0134,2024-07-17,C193,P039,Scarf,Men's Wear,Mansoura,3,160.9,482.69,7,July,Q3
+O0135,2024-12-30,C101,P040,Polo Shirt,Men's Wear,Tanta,2,27.67,55.34,12,December,Q4
+O0136,2024-08-01,C175,P014,Polo Shirt,Men's Wear,Mansoura,3,121.76,365.28,8,August,Q3
+O0137,2024-04-27,C131,P032,Blazer,Accessories,Alex,3,101.38,304.15,4,April,Q2
+O0138,2024-04-14,C001,P038,Jeans,Men's Wear,Mansoura,2,132.04,264.08,4,April,Q2
+O0139,2024-03-29,C005,P033,Sandals,Men's Wear,Mansoura,2,22.32,44.64,3,March,Q1
+O0140,2024-01-02,C142,P023,Socks,Kids' Wear,Alex,1,120.2,120.2,1,January,Q1
+O0141,2024-04-16,C103,P015,Shorts,Kids' Wear,Tanta,4,116.68,466.73,4,April,Q2
+O0142,2024-06-30,C027,P033,Sandals,Men's Wear,New Cairo,3,116.53,349.58,6,June,Q2
+O0143,2024-07-18,C137,P025,Polo Shirt,Women's Wear,New Cairo,1,124.66,124.66,7,July,Q3
+O0144,2024-01-01,C015,P017,Scarf,Accessories,Alex,2,138.53,277.06,1,January,Q1
+O0145,2024-08-05,C090,P033,Sandals,Men's Wear,New Cairo,4,162.95,651.79,8,August,Q3
+O0146,2024-01-31,C042,P047,Socks,Accessories,Mansoura,1,61.27,61.27,1,January,Q1
+O0147,2024-08-12,C124,P002,Shorts,Kids' Wear,Mansoura,3,166.76,500.28,8,August,Q3
+O0148,2024-05-02,C179,P014,Polo Shirt,Men's Wear,Tanta,1,104.67,104.67,5,May,Q2
+O0149,2024-09-16,C063,P040,Polo Shirt,Men's Wear,Tanta,3,24.64,73.92,9,September,Q3
+O0150,2024-09-30,C096,P040,Polo Shirt,Men's Wear,Alex,2,21.12,42.25,9,September,Q3
+O0151,2024-11-10,C052,P039,Scarf,Men's Wear,New Cairo,4,73.51,294.02,11,November,Q4
+O0152,2024-04-18,C096,P006,Skirt,Women's Wear,New Cairo,4,159.13,636.52,4,April,Q2
+O0153,2024-05-29,C132,P006,Skirt,Women's Wear,New Cairo,4,144.46,577.84,5,May,Q2
+O0154,2024-11-05,C151,P003,Polo Shirt,Accessories,Alex,2,159.84,319.67,11,November,Q4
+O0155,2024-12-18,C143,P007,Watch,Kids' Wear,Tanta,3,108.28,324.84,12,December,Q4
+O0156,2024-12-15,C171,P008,Scarf,Women's Wear,Tanta,2,93.64,187.28,12,December,Q4
+O0157,2024-07-25,C029,P042,Belt,Accessories,Tanta,4,38.02,152.06,7,July,Q3
+O0158,2024-10-27,C036,P015,Shorts,Kids' Wear,Mansoura,2,72.36,144.71,10,October,Q4
+O0159,2024-10-26,C013,P047,Socks,Accessories,New Cairo,2,92.46,184.93,10,October,Q4
+O0160,2024-12-28,C160,P029,Gloves,Men's Wear,Tanta,2,26.83,53.67,12,December,Q4
+O0161,2024-05-21,C071,P033,Sandals,Men's Wear,Alex,3,51.92,155.75,5,May,Q2
+O0162,2024-03-21,C187,P030,Hat,Women's Wear,Alex,1,123.66,123.66,3,March,Q1
+O0163,2024-09-01,C086,P039,Scarf,Men's Wear,New Cairo,1,149.78,149.78,9,September,Q3
+O0164,2024-07-17,C028,P027,Jacket,Accessories,Tanta,2,199.69,399.37,7,July,Q3
+O0165,2024-01-06,C066,P036,Gloves,Kids' Wear,Tanta,1,187.29,187.29,1,January,Q1
+O0166,2024-07-12,C170,P029,Gloves,Men's Wear,Alex,1,132.09,132.09,7,July,Q3
+O0167,2024-04-17,C045,P038,Jeans,Men's Wear,Tanta,2,90.04,180.07,4,April,Q2
+O0168,2024-11-16,C062,P033,Sandals,Men's Wear,Alex,2,130.87,261.75,11,November,Q4
+O0169,2024-12-11,C185,P037,Scarf,Kids' Wear,New Cairo,4,159.27,637.1,12,December,Q4
+O0170,2024-05-08,C134,P027,Jacket,Accessories,New Cairo,1,32.48,32.48,5,May,Q2
+O0171,2024-11-04,C028,P033,Sandals,Men's Wear,New Cairo,3,87.88,263.65,11,November,Q4
+O0172,2024-02-01,C028,P004,Shoes,Accessories,Tanta,2,169.56,339.12,2,February,Q1
+O0173,2024-11-04,C108,P022,Hat,Women's Wear,Alex,4,82.93,331.71,11,November,Q4
+O0174,2024-08-27,C044,P002,Shorts,Kids' Wear,Tanta,3,118.66,355.97,8,August,Q3
+O0175,2024-01-04,C084,P010,Shoes,Kids' Wear,New Cairo,1,121.68,121.68,1,January,Q1
+O0176,2024-12-01,C030,P005,Belt,Women's Wear,New Cairo,4,45.05,180.2,12,December,Q4
+O0177,2024-09-15,C190,P010,Shoes,Kids' Wear,New Cairo,2,78.82,157.65,9,September,Q3
+O0178,2024-12-28,C075,P033,Sandals,Men's Wear,Tanta,3,73.56,220.67,12,December,Q4
+O0179,2024-05-30,C128,P038,Jeans,Men's Wear,Mansoura,2,14.98,29.95,5,May,Q2
+O0180,2024-02-05,C092,P013,Jacket,Kids' Wear,Tanta,1,14.6,14.6,2,February,Q1
+O0181,2024-11-16,C190,P031,Jeans,Men's Wear,New Cairo,3,168.02,504.07,11,November,Q4
+O0182,2024-03-07,C129,P047,Socks,Accessories,Mansoura,1,61.88,61.88,3,March,Q1
+O0183,2024-02-10,C121,P036,Gloves,Kids' Wear,New Cairo,1,108.43,108.43,2,February,Q1
+O0184,2024-07-11,C027,P045,Socks,Accessories,Tanta,4,66.76,267.03,7,July,Q3
+O0185,2024-03-06,C190,P024,Gloves,Accessories,New Cairo,2,188.73,377.46,3,March,Q1
+O0186,2024-10-31,C121,P015,Shorts,Kids' Wear,Alex,3,59.27,177.8,10,October,Q4
+O0187,2024-05-04,C116,P029,Gloves,Men's Wear,Mansoura,1,91.63,91.63,5,May,Q2
+O0188,2024-10-01,C003,P008,Scarf,Women's Wear,New Cairo,1,175.82,175.82,10,October,Q4
+O0189,2024-08-22,C103,P005,Belt,Women's Wear,Alex,3,169.97,509.9,8,August,Q3
+O0190,2024-05-29,C198,P029,Gloves,Men's Wear,Tanta,1,45.36,45.36,5,May,Q2
+O0191,2024-08-12,C200,P047,Socks,Accessories,New Cairo,4,162.5,650.01,8,August,Q3
+O0192,2024-08-16,C155,P004,Shoes,Accessories,Mansoura,4,97.06,388.22,8,August,Q3
+O0193,2024-06-13,C137,P012,Watch,Women's Wear,Mansoura,4,101.76,407.06,6,June,Q2
+O0194,2024-11-15,C062,P045,Socks,Accessories,Alex,4,35.36,141.44,11,November,Q4
+O0195,2024-11-21,C165,P002,Shorts,Kids' Wear,New Cairo,1,25.31,25.31,11,November,Q4
+O0196,2024-01-27,C051,P027,Jacket,Accessories,Mansoura,3,148.31,444.93,1,January,Q1
+O0197,2024-12-11,C172,P031,Jeans,Men's Wear,New Cairo,3,104.33,312.98,12,December,Q4
+O0198,2024-12-17,C152,P036,Gloves,Kids' Wear,Mansoura,3,93.0,279.0,12,December,Q4
+O0199,2024-03-26,C059,P036,Gloves,Kids' Wear,Alex,3,148.61,445.82,3,March,Q1
+O0200,2024-05-07,C118,P026,Scarf,Women's Wear,Mansoura,2,155.45,310.89,5,May,Q2
+O0201,2024-04-09,C160,P043,Belt,Kids' Wear,Tanta,3,40.19,120.58,4,April,Q2
+O0202,2024-06-03,C096,P027,Jacket,Accessories,Mansoura,2,125.94,251.89,6,June,Q2
+O0203,2024-04-10,C180,P005,Belt,Women's Wear,Alex,2,35.72,71.43,4,April,Q2
+O0204,2024-03-20,C113,P020,Belt,Men's Wear,Madinaty,4,152.76,611.05,3,March,Q1
+O0205,2024-11-15,C062,P011,Socks,Kids' Wear,Tanta,2,134.82,269.64,11,November,Q4
+O0206,2024-12-20,C186,P010,Shoes,Kids' Wear,Madinaty,1,191.76,191.76,12,December,Q4
+O0207,2024-11-25,C052,P040,Polo Shirt,Men's Wear,Tanta,2,23.1,46.2,11,November,Q4
+O0208,2024-03-16,C012,P038,Jeans,Men's Wear,Madinaty,4,20.84,83.36,3,March,Q1
+O0209,2024-05-15,C039,P006,Skirt,Women's Wear,Alex,2,63.62,127.23,5,May,Q2
+O0210,2024-11-27,C130,P008,Scarf,Women's Wear,Madinaty,1,59.72,59.72,11,November,Q4
+O0211,2024-11-18,C131,P023,Socks,Kids' Wear,Madinaty,1,56.93,56.93,11,November,Q4
+O0212,2024-07-11,C113,P047,Socks,Accessories,Madinaty,1,182.19,182.19,7,July,Q3
+O0213,2024-07-05,C101,P026,Scarf,Women's Wear,Madinaty,4,57.41,229.66,7,July,Q3
+O0214,2024-06-18,C113,P046,Jeans,Kids' Wear,Alex,4,61.67,246.68,6,June,Q2
+O0215,2024-12-04,C184,P043,Belt,Kids' Wear,Tanta,3,154.29,462.86,12,December,Q4
+O0216,2024-06-12,C081,P012,Watch,Women's Wear,Tanta,4,95.45,381.8,6,June,Q2
+O0217,2024-03-12,C187,P026,Scarf,Women's Wear,Madinaty,1,157.58,157.58,3,March,Q1
+O0218,2024-01-24,C113,P013,Jacket,Kids' Wear,Alex,1,22.42,22.42,1,January,Q1
+O0219,2024-12-17,C002,P040,Polo Shirt,Men's Wear,Alex,4,102.64,410.55,12,December,Q4
+O0220,2024-02-22,C130,P018,Sweater,Women's Wear,Mansoura,2,16.39,32.77,2,February,Q1
+O0221,2024-01-08,C054,P025,Polo Shirt,Women's Wear,Madinaty,4,21.9,87.62,1,January,Q1
+O0222,2024-10-24,C087,P033,Sandals,Men's Wear,Mansoura,4,182.22,728.89,10,October,Q4
+O0223,2024-03-25,C129,P047,Socks,Accessories,Alex,1,36.46,36.46,3,March,Q1
+O0224,2024-06-30,C147,P040,Polo Shirt,Men's Wear,Madinaty,3,111.16,333.48,6,June,Q2
+O0225,2024-02-29,C126,P043,Belt,Kids' Wear,Madinaty,1,88.11,88.11,2,February,Q1
+O0226,2024-02-17,C130,P012,Watch,Women's Wear,Tanta,3,76.0,227.99,2,February,Q1
+O0227,2024-09-21,C053,P044,Boots,Kids' Wear,Tanta,1,180.97,180.97,9,September,Q3
+O0228,2024-04-28,C172,P036,Gloves,Kids' Wear,Alex,4,14.15,56.59,4,April,Q2
+O0229,2024-07-12,C160,P048,Sweater,Women's Wear,Mansoura,1,136.12,136.12,7,July,Q3
+O0230,2024-09-08,C198,P004,Shoes,Accessories,Mansoura,1,193.04,193.04,9,September,Q3
+O0231,2024-08-08,C160,P005,Belt,Women's Wear,Alex,1,116.43,116.43,8,August,Q3
+O0232,2024-04-18,C068,P037,Scarf,Kids' Wear,Mansoura,4,188.0,751.99,4,April,Q2
+O0233,2024-12-04,C183,P008,Scarf,Women's Wear,Mansoura,4,19.93,79.72,12,December,Q4
+O0234,2024-05-19,C184,P042,Belt,Accessories,Tanta,4,89.57,358.28,5,May,Q2
+O0235,2024-11-15,C123,P049,Jeans,Women's Wear,Madinaty,4,59.43,237.72,11,November,Q4
+O0236,2024-07-16,C145,P028,Dress,Kids' Wear,Mansoura,3,148.86,446.57,7,July,Q3
+O0237,2024-05-26,C038,P031,Jeans,Men's Wear,Alex,3,196.45,589.34,5,May,Q2
+O0238,2024-10-24,C024,P009,Polo Shirt,Men's Wear,Tanta,2,58.74,117.48,10,October,Q4
+O0239,2024-10-17,C069,P029,Gloves,Men's Wear,Mansoura,4,134.29,537.17,10,October,Q4
+O0240,2024-10-04,C116,P014,Polo Shirt,Men's Wear,Mansoura,3,47.64,142.92,10,October,Q4
+O0241,2024-01-06,C098,P040,Polo Shirt,Men's Wear,Madinaty,1,117.41,117.41,1,January,Q1
+O0242,2024-01-26,C198,P041,Polo Shirt,Accessories,Madinaty,4,98.15,392.59,1,January,Q1
+O0243,2024-12-03,C139,P022,Hat,Women's Wear,Mansoura,2,194.68,389.36,12,December,Q4
+O0244,2024-06-03,C144,P011,Socks,Kids' Wear,Alex,2,125.62,251.24,6,June,Q2
+O0245,2024-10-05,C097,P023,Socks,Kids' Wear,Madinaty,2,76.41,152.81,10,October,Q4
+O0246,2024-06-24,C124,P001,Sweater,Accessories,Tanta,1,31.68,31.68,6,June,Q2
+O0247,2024-01-22,C187,P046,Jeans,Kids' Wear,Alex,3,38.74,116.21,1,January,Q1
+O0248,2024-05-18,C070,P037,Scarf,Kids' Wear,Alex,1,52.81,52.81,5,May,Q2
+O0249,2024-12-09,C093,P021,Boots,Accessories,Mansoura,4,57.68,230.73,12,December,Q4
+O0250,2024-07-13,C003,P026,Scarf,Women's Wear,Madinaty,2,171.62,343.23,7,July,Q3
+O0251,2024-08-24,C148,P046,Jeans,Kids' Wear,Tanta,1,116.63,116.63,8,August,Q3
+O0252,2024-08-22,C187,P036,Gloves,Kids' Wear,Madinaty,1,109.44,109.44,8,August,Q3
+O0253,2024-09-11,C164,P023,Socks,Kids' Wear,Alex,3,31.81,95.42,9,September,Q3
+O0254,2024-02-21,C147,P001,Sweater,Accessories,Alex,3,173.43,520.28,2,February,Q1
+O0255,2024-04-29,C090,P040,Polo Shirt,Men's Wear,Tanta,2,147.33,294.67,4,April,Q2
+O0256,2024-09-20,C195,P015,Shorts,Kids' Wear,Alex,1,22.86,22.86,9,September,Q3
+O0257,2024-06-16,C147,P021,Boots,Accessories,Tanta,1,144.49,144.49,6,June,Q2
+O0258,2024-04-26,C148,P047,Socks,Accessories,Tanta,3,113.27,339.82,4,April,Q2
+O0259,2024-04-04,C096,P009,Polo Shirt,Men's Wear,Tanta,1,25.53,25.53,4,April,Q2
+O0260,2024-12-24,C199,P009,Polo Shirt,Men's Wear,Alex,1,97.08,97.08,12,December,Q4
+O0261,2024-12-28,C052,P010,Shoes,Kids' Wear,Alex,1,102.09,102.09,12,December,Q4
+O0262,2024-01-22,C161,P026,Scarf,Women's Wear,Mansoura,3,41.5,124.49,1,January,Q1
+O0263,2024-01-24,C168,P041,Polo Shirt,Accessories,Mansoura,2,189.68,379.37,1,January,Q1
+O0264,2024-07-09,C128,P035,Jeans,Men's Wear,Alex,4,171.5,685.98,7,July,Q3
+O0265,2024-11-06,C039,P025,Polo Shirt,Women's Wear,Mansoura,2,137.11,274.23,11,November,Q4
+O0266,2024-02-16,C082,P026,Scarf,Women's Wear,Alex,4,97.84,391.34,2,February,Q1
+O0267,2024-01-25,C104,P011,Socks,Kids' Wear,Alex,1,88.24,88.24,1,January,Q1
+O0268,2024-06-20,C129,P038,Jeans,Men's Wear,Tanta,2,133.68,267.37,6,June,Q2
+O0269,2024-07-15,C011,P002,Shorts,Kids' Wear,Tanta,4,113.63,454.53,7,July,Q3
+O0270,2024-08-29,C185,P007,Watch,Kids' Wear,Alex,3,21.83,65.5,8,August,Q3
+O0271,2024-06-22,C178,P018,Sweater,Women's Wear,Mansoura,3,107.38,322.13,6,June,Q2
+O0272,2024-09-24,C151,P027,Jacket,Accessories,Madinaty,2,163.22,326.43,9,September,Q3
+O0273,2024-02-05,C159,P034,Dress,Women's Wear,Mansoura,2,97.26,194.51,2,February,Q1
+O0274,2024-01-08,C042,P027,Jacket,Accessories,Madinaty,1,19.87,19.87,1,January,Q1
+O0275,2024-09-09,C099,P017,Scarf,Accessories,Mansoura,2,159.39,318.79,9,September,Q3
+O0276,2024-07-07,C007,P043,Belt,Kids' Wear,Alex,1,48.26,48.26,7,July,Q3
+O0277,2024-01-05,C144,P044,Boots,Kids' Wear,Mansoura,1,59.14,59.14,1,January,Q1
+O0278,2024-01-16,C090,P024,Gloves,Accessories,Alex,3,41.29,123.88,1,January,Q1
+O0279,2024-09-24,C112,P025,Polo Shirt,Women's Wear,Mansoura,3,72.74,218.22,9,September,Q3
+O0280,2024-01-19,C060,P007,Watch,Kids' Wear,Tanta,4,153.78,615.13,1,January,Q1
+O0281,2024-03-09,C113,P006,Skirt,Women's Wear,Tanta,3,108.68,326.05,3,March,Q1
+O0282,2024-10-01,C002,P024,Gloves,Accessories,Tanta,3,48.93,146.78,10,October,Q4
+O0283,2024-09-15,C129,P033,Sandals,Men's Wear,Tanta,2,176.79,353.58,9,September,Q3
+O0284,2024-01-23,C048,P049,Jeans,Women's Wear,Madinaty,3,177.12,531.36,1,January,Q1
+O0285,2024-09-11,C140,P029,Gloves,Men's Wear,Mansoura,4,175.41,701.64,9,September,Q3
+O0286,2024-01-20,C197,P043,Belt,Kids' Wear,Tanta,2,55.37,110.74,1,January,Q1
+O0287,2024-01-08,C037,P022,Hat,Women's Wear,Alex,4,95.74,382.94,1,January,Q1
+O0288,2024-05-09,C160,P026,Scarf,Women's Wear,Mansoura,3,197.15,591.44,5,May,Q2
+O0289,2024-11-11,C009,P028,Dress,Kids' Wear,Madinaty,4,156.68,626.73,11,November,Q4
+O0290,2024-11-11,C099,P050,T-Shirt,Kids' Wear,Alex,2,15.16,30.32,11,November,Q4
+O0291,2024-03-18,C147,P021,Boots,Accessories,Mansoura,1,22.39,22.39,3,March,Q1
+O0292,2024-07-21,C048,P049,Jeans,Women's Wear,Alex,4,98.15,392.59,7,July,Q3
+O0293,2024-10-22,C131,P007,Watch,Kids' Wear,Mansoura,4,182.75,731.01,10,October,Q4
+O0294,2024-02-19,C148,P017,Scarf,Accessories,Alex,2,112.35,224.71,2,February,Q1
+O0295,2024-01-29,C152,P020,Belt,Men's Wear,Madinaty,2,104.58,209.17,1,January,Q1
+O0296,2024-01-28,C054,P041,Polo Shirt,Accessories,Alex,4,30.04,120.16,1,January,Q1
+O0297,2024-02-15,C120,P049,Jeans,Women's Wear,Madinaty,3,134.79,404.36,2,February,Q1
+O0298,2024-02-08,C161,P020,Belt,Men's Wear,Tanta,4,166.2,664.8,2,February,Q1
+O0299,2024-08-31,C152,P022,Hat,Women's Wear,Alex,2,82.28,164.56,8,August,Q3
+O0300,2024-06-07,C116,P028,Dress,Kids' Wear,Tanta,1,157.37,157.37,6,June,Q2
+O0301,2024-11-28,C075,P040,Polo Shirt,Men's Wear,Alex,1,193.25,193.25,11,November,Q4
+O0302,2024-07-06,C113,P049,Jeans,Women's Wear,Alex,3,48.72,146.15,7,July,Q3
+O0303,2024-03-01,C200,P007,Watch,Kids' Wear,Tanta,4,109.43,437.73,3,March,Q1
+O0304,2024-06-23,C164,P001,Sweater,Accessories,Tanta,1,64.56,64.56,6,June,Q2
+O0305,2024-07-30,C166,P032,Blazer,Accessories,Mansoura,4,160.64,642.57,7,July,Q3
+O0306,2024-12-14,C104,P013,Jacket,Kids' Wear,Mansoura,2,119.74,239.49,12,December,Q4
+O0307,2024-09-06,C084,P030,Hat,Women's Wear,Alex,1,130.57,130.57,9,September,Q3
+O0308,2024-10-20,C112,P023,Socks,Kids' Wear,Alex,3,161.6,484.81,10,October,Q4
+O0309,2024-02-05,C099,P019,Jacket,Men's Wear,Tanta,2,85.23,170.47,2,February,Q1
+O0310,2024-10-07,C153,P032,Blazer,Accessories,Tanta,3,183.87,551.6,10,October,Q4
+O0311,2024-11-10,C093,P030,Hat,Women's Wear,Alex,2,111.28,222.55,11,November,Q4
+O0312,2024-10-02,C146,P029,Gloves,Men's Wear,Mansoura,1,40.01,40.01,10,October,Q4
+O0313,2024-04-10,C128,P049,Jeans,Women's Wear,Mansoura,3,142.22,426.66,4,April,Q2
+O0314,2024-06-03,C110,P045,Socks,Accessories,Alex,3,160.72,482.16,6,June,Q2
+O0315,2024-11-29,C082,P029,Gloves,Men's Wear,Madinaty,2,70.18,140.37,11,November,Q4
+O0316,2024-08-31,C194,P030,Hat,Women's Wear,Madinaty,3,172.86,518.59,8,August,Q3
+O0317,2024-06-16,C054,P016,Jacket,Women's Wear,Mansoura,2,182.17,364.33,6,June,Q2
+O0318,2024-11-12,C163,P040,Polo Shirt,Men's Wear,Tanta,2,62.61,125.22,11,November,Q4
+O0319,2024-08-15,C189,P019,Jacket,Men's Wear,Tanta,2,196.87,393.74,8,August,Q3
+O0320,2024-05-08,C169,P018,Sweater,Women's Wear,Mansoura,2,36.74,73.47,5,May,Q2
+O0321,2024-03-08,C161,P001,Sweater,Accessories,Madinaty,1,48.38,48.38,3,March,Q1
+O0322,2024-07-25,C068,P014,Polo Shirt,Men's Wear,Mansoura,2,45.0,90.01,7,July,Q3
+O0323,2024-06-07,C033,P047,Socks,Accessories,Madinaty,4,179.86,719.43,6,June,Q2
+O0324,2024-07-11,C142,P050,T-Shirt,Kids' Wear,Tanta,3,134.32,402.95,7,July,Q3
+O0325,2024-01-15,C021,P002,Shorts,Kids' Wear,Mansoura,4,38.9,155.6,1,January,Q1
+O0326,2024-09-09,C048,P028,Dress,Kids' Wear,Mansoura,1,93.66,93.66,9,September,Q3
+O0327,2024-03-01,C148,P049,Jeans,Women's Wear,Mansoura,4,126.91,507.63,3,March,Q1
+O0328,2024-08-09,C128,P050,T-Shirt,Kids' Wear,Alex,3,25.86,77.57,8,August,Q3
+O0329,2024-05-09,C136,P030,Hat,Women's Wear,Tanta,4,177.66,710.64,5,May,Q2
+O0330,2024-10-18,C135,P038,Jeans,Men's Wear,Alex,1,162.68,162.68,10,October,Q4
+O0331,2024-03-20,C195,P004,Shoes,Accessories,Mansoura,2,105.99,211.98,3,March,Q1
+O0332,2024-03-07,C145,P001,Sweater,Accessories,Mansoura,4,193.75,775.02,3,March,Q1
+O0333,2024-05-10,C128,P008,Scarf,Women's Wear,Tanta,1,89.37,89.37,5,May,Q2
+O0334,2024-04-21,C033,P029,Gloves,Men's Wear,Madinaty,1,196.98,196.98,4,April,Q2
+O0335,2024-11-25,C176,P039,Scarf,Men's Wear,Madinaty,3,136.9,410.71,11,November,Q4
+O0336,2024-07-21,C187,P003,Polo Shirt,Accessories,Alex,3,130.59,391.76,7,July,Q3
+O0337,2024-06-09,C115,P032,Blazer,Accessories,Mansoura,4,41.53,166.13,6,June,Q2
+O0338,2024-07-14,C119,P010,Shoes,Kids' Wear,Tanta,2,177.57,355.13,7,July,Q3
+O0339,2024-06-14,C022,P010,Shoes,Kids' Wear,Alex,1,91.22,91.22,6,June,Q2
+O0340,2024-03-30,C158,P019,Jacket,Men's Wear,Tanta,4,40.82,163.3,3,March,Q1
+O0341,2024-10-06,C038,P046,Jeans,Kids' Wear,Mansoura,1,12.4,12.4,10,October,Q4
+O0342,2024-10-05,C109,P034,Dress,Women's Wear,Mansoura,1,116.35,116.35,10,October,Q4
+O0343,2024-04-07,C051,P033,Sandals,Men's Wear,Alex,2,110.21,220.41,4,April,Q2
+O0344,2024-06-19,C182,P023,Socks,Kids' Wear,Tanta,2,146.68,293.35,6,June,Q2
+O0345,2024-06-22,C008,P028,Dress,Kids' Wear,Alex,4,179.15,716.6,6,June,Q2
+O0346,2024-11-03,C027,P032,Blazer,Accessories,Mansoura,2,25.09,50.17,11,November,Q4
+O0347,2024-12-26,C027,P050,T-Shirt,Kids' Wear,Mansoura,2,148.98,297.97,12,December,Q4
+O0348,2024-12-05,C021,P007,Watch,Kids' Wear,Alex,4,45.61,182.43,12,December,Q4
+O0349,2024-04-20,C030,P029,Gloves,Men's Wear,Mansoura,2,173.05,346.11,4,April,Q2
+O0350,2024-07-10,C097,P008,Scarf,Women's Wear,Alex,3,165.62,496.87,7,July,Q3
+O0351,2024-01-04,C028,P001,Sweater,Accessories,Mansoura,1,112.75,112.75,1,January,Q1
+O0352,2024-05-10,C111,P003,Polo Shirt,Accessories,Madinaty,1,144.95,144.95,5,May,Q2
+O0353,2024-04-23,C192,P024,Gloves,Accessories,Alex,1,69.73,69.73,4,April,Q2
+O0354,2024-05-12,C197,P023,Socks,Kids' Wear,Tanta,1,99.52,99.52,5,May,Q2
+O0355,2024-07-15,C061,P008,Scarf,Women's Wear,Alex,4,166.11,664.44,7,July,Q3
+O0356,2024-03-16,C048,P047,Socks,Accessories,Alex,1,97.26,97.26,3,March,Q1
+O0357,2024-07-19,C147,P037,Scarf,Kids' Wear,Mansoura,1,77.98,77.98,7,July,Q3
+O0358,2024-04-29,C004,P003,Polo Shirt,Accessories,Madinaty,1,103.9,103.9,4,April,Q2
+O0359,2024-10-11,C035,P033,Sandals,Men's Wear,Alex,1,167.37,167.37,10,October,Q4
+O0360,2024-10-22,C192,P028,Dress,Kids' Wear,Mansoura,3,73.69,221.07,10,October,Q4
+O0361,2024-05-16,C049,P047,Socks,Accessories,Madinaty,1,43.01,43.01,5,May,Q2
+O0362,2024-04-19,C017,P008,Scarf,Women's Wear,Alex,3,145.28,435.85,4,April,Q2
+O0363,2024-01-15,C172,P034,Dress,Women's Wear,Madinaty,4,166.94,667.74,1,January,Q1
+O0364,2024-05-25,C158,P035,Jeans,Men's Wear,Alex,2,29.12,58.24,5,May,Q2
+O0365,2024-10-20,C046,P032,Blazer,Accessories,Mansoura,1,55.58,55.58,10,October,Q4
+O0366,2024-03-18,C117,P024,Gloves,Accessories,Mansoura,2,36.97,73.95,3,March,Q1
+O0367,2024-09-17,C006,P014,Polo Shirt,Men's Wear,Madinaty,2,76.11,152.22,9,September,Q3
+O0368,2024-05-09,C099,P032,Blazer,Accessories,Madinaty,4,95.57,382.27,5,May,Q2
+O0369,2024-01-25,C124,P046,Jeans,Kids' Wear,Alex,2,152.28,304.55,1,January,Q1
+O0370,2024-04-12,C037,P043,Belt,Kids' Wear,Madinaty,3,133.72,401.15,4,April,Q2
+O0371,2024-08-07,C024,P016,Jacket,Women's Wear,Tanta,2,127.98,255.95,8,August,Q3
+O0372,2024-10-01,C093,P004,Shoes,Accessories,Alex,2,76.95,153.9,10,October,Q4
+O0373,2024-09-07,C046,P037,Scarf,Kids' Wear,Madinaty,2,169.88,339.75,9,September,Q3
+O0374,2024-10-27,C181,P021,Boots,Accessories,Mansoura,1,99.54,99.54,10,October,Q4
+O0375,2024-03-20,C095,P014,Polo Shirt,Men's Wear,Alex,1,196.03,196.03,3,March,Q1
+O0376,2024-07-20,C099,P031,Jeans,Men's Wear,Alex,3,130.49,391.46,7,July,Q3
+O0377,2024-05-23,C188,P048,Sweater,Women's Wear,Alex,3,33.99,101.97,5,May,Q2
+O0378,2024-10-09,C116,P018,Sweater,Women's Wear,Alex,1,138.47,138.47,10,October,Q4
+O0379,2024-10-10,C191,P007,Watch,Kids' Wear,Tanta,3,71.77,215.31,10,October,Q4
+O0380,2024-05-05,C160,P010,Shoes,Kids' Wear,Madinaty,1,140.4,140.4,5,May,Q2
+O0381,2024-03-17,C161,P007,Watch,Kids' Wear,Madinaty,4,23.23,92.93,3,March,Q1
+O0382,2024-08-14,C067,P033,Sandals,Men's Wear,Madinaty,2,43.23,86.45,8,August,Q3
+O0383,2024-07-18,C128,P023,Socks,Kids' Wear,Tanta,2,172.59,345.18,7,July,Q3
+O0384,2024-10-19,C018,P021,Boots,Accessories,Mansoura,3,53.16,159.49,10,October,Q4
+O0385,2024-02-18,C025,P019,Jacket,Men's Wear,Madinaty,1,169.04,169.04,2,February,Q1
+O0386,2024-02-29,C054,P048,Sweater,Women's Wear,Mansoura,1,63.06,63.06,2,February,Q1
+O0387,2024-09-23,C058,P019,Jacket,Men's Wear,Madinaty,3,132.15,396.44,9,September,Q3
+O0388,2024-05-15,C067,P036,Gloves,Kids' Wear,Madinaty,1,141.89,141.89,5,May,Q2
+O0389,2024-04-30,C104,P029,Gloves,Men's Wear,Madinaty,4,107.4,429.62,4,April,Q2
+O0390,2024-05-20,C174,P018,Sweater,Women's Wear,Alex,2,68.01,136.02,5,May,Q2
+O0391,2024-11-13,C024,P002,Shorts,Kids' Wear,Mansoura,3,50.4,151.21,11,November,Q4
+O0392,2024-04-24,C114,P001,Sweater,Accessories,Alex,3,16.31,48.92,4,April,Q2
+O0393,2024-02-26,C032,P047,Socks,Accessories,Mansoura,1,67.75,67.75,2,February,Q1
+O0394,2024-10-14,C175,P005,Belt,Women's Wear,Mansoura,3,134.1,402.3,10,October,Q4
+O0395,2024-07-16,C086,P020,Belt,Men's Wear,Madinaty,4,188.28,753.11,7,July,Q3
+O0396,2024-12-22,C151,P011,Socks,Kids' Wear,Mansoura,1,175.53,175.53,12,December,Q4
+O0397,2024-07-01,C194,P042,Belt,Accessories,Mansoura,1,155.55,155.55,7,July,Q3
+O0398,2024-12-19,C127,P002,Shorts,Kids' Wear,Alex,1,159.8,159.8,12,December,Q4
+O0399,2024-04-18,C155,P003,Polo Shirt,Accessories,Tanta,1,136.35,136.35,4,April,Q2
+O0400,2024-09-29,C130,P023,Socks,Kids' Wear,Madinaty,4,59.45,237.82,9,September,Q3
+O0401,2024-12-11,C017,P012,Watch,Women's Wear,Tanta,1,182.37,182.37,12,December,Q4
+O0402,2024-03-31,C104,P020,Belt,Men's Wear,Madinaty,3,137.44,412.32,3,March,Q1
+O0403,2024-04-30,C161,P005,Belt,Women's Wear,Madinaty,4,116.48,465.93,4,April,Q2
+O0404,2024-11-09,C137,P037,Scarf,Kids' Wear,Alex,2,31.09,62.18,11,November,Q4
+O0405,2024-04-23,C043,P038,Jeans,Men's Wear,Madinaty,2,94.94,189.88,4,April,Q2
+O0406,2024-04-26,C176,P030,Hat,Women's Wear,Mansoura,3,97.47,292.4,4,April,Q2
+O0407,2024-08-21,C039,P009,Polo Shirt,Men's Wear,Mansoura,3,174.27,522.8,8,August,Q3
+O0408,2024-03-06,C170,P034,Dress,Women's Wear,Mansoura,4,113.86,455.45,3,March,Q1
+O0409,2024-01-03,C026,P044,Boots,Kids' Wear,Madinaty,2,82.28,164.55,1,January,Q1
+O0410,2024-08-31,C099,P035,Jeans,Men's Wear,Alex,2,195.59,391.18,8,August,Q3
+O0411,2024-11-28,C050,P022,Hat,Women's Wear,Madinaty,2,31.04,62.07,11,November,Q4
+O0412,2024-10-18,C153,P044,Boots,Kids' Wear,Mansoura,2,90.28,180.57,10,October,Q4
+O0413,2024-11-25,C152,P024,Gloves,Accessories,Tanta,2,17.98,35.97,11,November,Q4
+O0414,2024-02-21,C013,P017,Scarf,Accessories,Madinaty,1,150.58,150.58,2,February,Q1
+O0415,2024-08-07,C060,P010,Shoes,Kids' Wear,Madinaty,3,184.43,553.3,8,August,Q3
+O0416,2024-05-28,C135,P030,Hat,Women's Wear,Alex,1,63.21,63.21,5,May,Q2
+O0417,2024-01-01,C057,P046,Jeans,Kids' Wear,Alex,2,173.08,346.17,1,January,Q1
+O0418,2024-06-12,C036,P023,Socks,Kids' Wear,Mansoura,4,65.52,262.09,6,June,Q2
+O0419,2024-09-20,C173,P032,Blazer,Accessories,Alex,4,183.05,732.19,9,September,Q3
+O0420,2024-11-28,C020,P017,Scarf,Accessories,Alex,2,153.25,306.51,11,November,Q4
+O0421,2024-03-26,C065,P050,T-Shirt,Kids' Wear,Tanta,2,162.93,325.86,3,March,Q1
+O0422,2024-08-16,C008,P017,Scarf,Accessories,Madinaty,4,13.42,53.68,8,August,Q3
+O0423,2024-06-27,C144,P014,Polo Shirt,Men's Wear,Alex,1,192.93,192.93,6,June,Q2
+O0424,2024-06-27,C142,P009,Polo Shirt,Men's Wear,Tanta,1,148.07,148.07,6,June,Q2
+O0425,2024-01-05,C115,P040,Polo Shirt,Men's Wear,Tanta,2,67.9,135.81,1,January,Q1
+O0426,2024-05-24,C143,P002,Shorts,Kids' Wear,Alex,1,167.58,167.58,5,May,Q2
+O0427,2024-12-01,C092,P045,Socks,Accessories,Mansoura,4,63.49,253.96,12,December,Q4
+O0428,2024-12-22,C098,P025,Polo Shirt,Women's Wear,Alex,1,175.82,175.82,12,December,Q4
+O0429,2024-12-01,C066,P039,Scarf,Men's Wear,Alex,2,31.39,62.78,12,December,Q4
+O0430,2024-08-19,C032,P009,Polo Shirt,Men's Wear,Alex,4,143.7,574.8,8,August,Q3
+O0431,2024-02-16,C191,P022,Hat,Women's Wear,Tanta,1,112.73,112.73,2,February,Q1
+O0432,2024-02-09,C086,P043,Belt,Kids' Wear,Alex,3,28.34,85.02,2,February,Q1
+O0433,2024-04-26,C051,P046,Jeans,Kids' Wear,Alex,4,55.96,223.84,4,April,Q2
+O0434,2024-01-08,C153,P004,Shoes,Accessories,Madinaty,4,12.36,49.43,1,January,Q1
+O0435,2024-09-15,C186,P026,Scarf,Women's Wear,Mansoura,3,99.07,297.2,9,September,Q3
+O0436,2024-04-01,C063,P029,Gloves,Men's Wear,Alex,3,67.24,201.72,4,April,Q2
+O0437,2024-07-03,C190,P045,Socks,Accessories,Tanta,4,123.69,494.75,7,July,Q3
+O0438,2024-02-05,C125,P034,Dress,Women's Wear,Madinaty,3,66.48,199.43,2,February,Q1
+O0439,2024-12-23,C150,P023,Socks,Kids' Wear,Madinaty,2,66.98,133.97,12,December,Q4
+O0440,2024-03-31,C058,P037,Scarf,Kids' Wear,Tanta,2,151.21,302.41,3,March,Q1
+O0441,2024-07-16,C058,P011,Socks,Kids' Wear,Tanta,2,19.15,38.29,7,July,Q3
+O0442,2024-05-23,C086,P006,Skirt,Women's Wear,Tanta,4,181.55,726.2,5,May,Q2
+O0443,2024-09-07,C049,P018,Sweater,Women's Wear,Madinaty,3,171.93,515.79,9,September,Q3
+O0444,2024-06-07,C180,P021,Boots,Accessories,Alex,3,136.88,410.65,6,June,Q2
+O0445,2024-06-05,C170,P042,Belt,Accessories,Madinaty,1,122.71,122.71,6,June,Q2
+O0446,2024-01-05,C070,P036,Gloves,Kids' Wear,Mansoura,1,179.54,179.54,1,January,Q1
+O0447,2024-11-20,C015,P041,Polo Shirt,Accessories,Madinaty,3,45.21,135.64,11,November,Q4
+O0448,2024-07-25,C054,P038,Jeans,Men's Wear,Madinaty,3,25.0,75.01,7,July,Q3
+O0449,2024-08-29,C188,P034,Dress,Women's Wear,Tanta,3,55.51,166.52,8,August,Q3
+O0450,2024-07-01,C101,P017,Scarf,Accessories,Mansoura,4,160.97,643.88,7,July,Q3
+O0451,2024-07-10,C008,P037,Scarf,Kids' Wear,Madinaty,3,16.59,49.76,7,July,Q3
+O0452,2024-08-20,C053,P025,Polo Shirt,Women's Wear,Madinaty,1,120.73,120.73,8,August,Q3
+O0453,2024-03-05,C060,P038,Jeans,Men's Wear,Alex,4,199.13,796.53,3,March,Q1
+O0454,2024-04-11,C108,P012,Watch,Women's Wear,Mansoura,3,172.58,517.75,4,April,Q2
+O0455,2024-05-20,C005,P023,Socks,Kids' Wear,Tanta,1,109.07,109.07,5,May,Q2
+O0456,2024-02-15,C103,P042,Belt,Accessories,Madinaty,4,22.09,88.37,2,February,Q1
+O0457,2024-12-03,C196,P022,Hat,Women's Wear,Alex,3,167.96,503.88,12,December,Q4
+O0458,2024-06-23,C006,P021,Boots,Accessories,Tanta,3,123.81,371.42,6,June,Q2
+O0459,2024-06-02,C109,P027,Jacket,Accessories,Mansoura,3,31.84,95.51,6,June,Q2
+O0460,2024-03-22,C116,P031,Jeans,Men's Wear,Alex,4,27.83,111.33,3,March,Q1
+O0461,2024-04-11,C094,P006,Skirt,Women's Wear,Madinaty,1,182.83,182.83,4,April,Q2
+O0462,2024-03-31,C047,P027,Jacket,Accessories,Mansoura,1,137.15,137.15,3,March,Q1
+O0463,2024-01-07,C099,P040,Polo Shirt,Men's Wear,Alex,2,167.56,335.13,1,January,Q1
+O0464,2024-07-16,C055,P034,Dress,Women's Wear,Madinaty,3,177.01,531.02,7,July,Q3
+O0465,2024-07-08,C168,P012,Watch,Women's Wear,Mansoura,2,118.64,237.27,7,July,Q3
+O0466,2024-11-18,C052,P045,Socks,Accessories,Alex,2,108.31,216.63,11,November,Q4
+O0467,2024-03-20,C144,P007,Watch,Kids' Wear,Madinaty,1,91.78,91.78,3,March,Q1
+O0468,2024-01-14,C013,P010,Shoes,Kids' Wear,Madinaty,4,70.22,280.88,1,January,Q1
+O0469,2024-08-19,C114,P045,Socks,Accessories,Madinaty,4,92.57,370.29,8,August,Q3
+O0470,2024-07-19,C124,P017,Scarf,Accessories,Mansoura,1,157.04,157.04,7,July,Q3
+O0471,2024-01-18,C106,P026,Scarf,Women's Wear,Madinaty,4,124.37,497.46,1,January,Q1
+O0472,2024-09-01,C158,P021,Boots,Accessories,Mansoura,2,179.58,359.16,9,September,Q3
+O0473,2024-09-19,C147,P028,Dress,Kids' Wear,Madinaty,3,94.24,282.73,9,September,Q3
+O0474,2024-05-21,C145,P046,Jeans,Kids' Wear,Alex,1,125.35,125.35,5,May,Q2
+O0475,2024-08-08,C120,P002,Shorts,Kids' Wear,Mansoura,3,129.95,389.85,8,August,Q3
+O0476,2024-04-27,C063,P043,Belt,Kids' Wear,Tanta,4,122.42,489.69,4,April,Q2
+O0477,2024-04-08,C019,P001,Sweater,Accessories,Mansoura,3,143.5,430.5,4,April,Q2
+O0478,2024-12-02,C092,P036,Gloves,Kids' Wear,Alex,4,55.11,220.45,12,December,Q4
+O0479,2024-04-11,C058,P026,Scarf,Women's Wear,Alex,4,107.35,429.4,4,April,Q2
+O0480,2024-09-18,C183,P029,Gloves,Men's Wear,Mansoura,2,29.8,59.61,9,September,Q3
+O0481,2024-04-10,C090,P021,Boots,Accessories,Mansoura,4,83.06,332.23,4,April,Q2
+O0482,2024-08-15,C117,P011,Socks,Kids' Wear,Mansoura,2,102.66,205.31,8,August,Q3
+O0483,2024-08-06,C062,P040,Polo Shirt,Men's Wear,Mansoura,2,133.92,267.85,8,August,Q3
+O0484,2024-10-18,C023,P011,Socks,Kids' Wear,Madinaty,2,190.6,381.2,10,October,Q4
+O0485,2024-06-18,C127,P036,Gloves,Kids' Wear,Tanta,1,124.12,124.12,6,June,Q2
+O0486,2024-09-21,C137,P049,Jeans,Women's Wear,Tanta,1,151.28,151.28,9,September,Q3
+O0487,2024-08-07,C140,P039,Scarf,Men's Wear,Alex,4,106.19,424.76,8,August,Q3
+O0488,2024-09-08,C129,P040,Polo Shirt,Men's Wear,Alex,2,130.48,260.96,9,September,Q3
+O0489,2024-07-19,C058,P035,Jeans,Men's Wear,Mansoura,1,23.48,23.48,7,July,Q3
+O0490,2024-06-08,C122,P034,Dress,Women's Wear,Madinaty,2,58.33,116.67,6,June,Q2
+O0491,2024-10-04,C001,P047,Socks,Accessories,Tanta,3,78.75,236.26,10,October,Q4
+O0492,2024-02-23,C034,P024,Gloves,Accessories,Tanta,3,99.77,299.32,2,February,Q1
+O0493,2024-03-14,C096,P022,Hat,Women's Wear,Tanta,3,18.67,56.02,3,March,Q1
+O0494,2024-06-04,C126,P005,Belt,Women's Wear,Madinaty,4,36.6,146.42,6,June,Q2
+O0495,2024-08-20,C118,P033,Sandals,Men's Wear,Alex,2,62.59,125.19,8,August,Q3
+O0496,2024-03-05,C048,P036,Gloves,Kids' Wear,Tanta,3,194.59,583.77,3,March,Q1
+O0497,2024-03-05,C089,P047,Socks,Accessories,Alex,1,72.96,72.96,3,March,Q1
+O0498,2024-06-02,C117,P020,Belt,Men's Wear,Alex,3,101.59,304.76,6,June,Q2
+O0499,2024-06-15,C129,P019,Jacket,Men's Wear,Madinaty,3,47.26,141.78,6,June,Q2
+O0500,2024-09-12,C016,P035,Jeans,Men's Wear,Alex,3,126.05,378.14,9,September,Q3
+O0501,2024-12-18,C189,P043,Belt,Kids' Wear,Tanta,4,63.33,253.32,12,December,Q4
+O0502,2024-06-03,C192,P017,Scarf,Accessories,Mansoura,1,49.33,49.33,6,June,Q2
+O0503,2024-11-06,C191,P045,Socks,Accessories,Tanta,2,108.15,216.3,11,November,Q4
+O0504,2024-09-14,C069,P043,Belt,Kids' Wear,Madinaty,1,11.05,11.05,9,September,Q3
+O0505,2024-01-07,C022,P034,Dress,Women's Wear,Alex,2,11.46,22.91,1,January,Q1
+O0506,2024-11-28,C093,P009,Polo Shirt,Men's Wear,Tanta,4,51.62,206.49,11,November,Q4
+O0507,2024-05-20,C195,P026,Scarf,Women's Wear,Madinaty,4,16.98,67.91,5,May,Q2
+O0508,2024-01-10,C076,P002,Shorts,Kids' Wear,Alex,4,30.52,122.1,1,January,Q1
+O0509,2024-09-12,C154,P009,Polo Shirt,Men's Wear,Mansoura,4,74.38,297.53,9,September,Q3
+O0510,2024-09-29,C144,P009,Polo Shirt,Men's Wear,Mansoura,2,162.49,324.98,9,September,Q3
+O0511,2024-10-26,C179,P040,Polo Shirt,Men's Wear,Madinaty,3,118.69,356.07,10,October,Q4
+O0512,2024-08-06,C086,P017,Scarf,Accessories,Tanta,2,107.41,214.81,8,August,Q3
+O0513,2024-08-22,C185,P001,Sweater,Accessories,Madinaty,1,65.76,65.76,8,August,Q3
+O0514,2024-09-03,C029,P025,Polo Shirt,Women's Wear,Alex,4,187.03,748.13,9,September,Q3
+O0515,2024-06-10,C069,P043,Belt,Kids' Wear,Tanta,4,85.43,341.73,6,June,Q2
+O0516,2024-05-06,C047,P040,Polo Shirt,Men's Wear,Tanta,1,26.55,26.55,5,May,Q2
+O0517,2024-11-29,C094,P042,Belt,Accessories,Tanta,2,127.24,254.49,11,November,Q4
+O0518,2024-01-31,C190,P025,Polo Shirt,Women's Wear,Mansoura,3,31.63,94.89,1,January,Q1
+O0519,2024-02-01,C197,P039,Scarf,Men's Wear,Mansoura,3,75.59,226.78,2,February,Q1
+O0520,2024-07-01,C144,P035,Jeans,Men's Wear,Alex,1,106.41,106.41,7,July,Q3
+O0521,2024-11-08,C176,P003,Polo Shirt,Accessories,Alex,3,176.1,528.31,11,November,Q4
+O0522,2024-01-24,C085,P050,T-Shirt,Kids' Wear,Alex,2,103.77,207.55,1,January,Q1
+O0523,2024-01-28,C039,P037,Scarf,Kids' Wear,Mansoura,2,143.43,286.86,1,January,Q1
+O0524,2024-12-23,C100,P044,Boots,Kids' Wear,Tanta,1,198.64,198.64,12,December,Q4
+O0525,2024-05-16,C033,P044,Boots,Kids' Wear,Madinaty,2,34.98,69.97,5,May,Q2
+O0526,2024-09-28,C101,P030,Hat,Women's Wear,Mansoura,4,62.2,248.8,9,September,Q3
+O0527,2024-12-21,C023,P038,Jeans,Men's Wear,Madinaty,1,84.97,84.97,12,December,Q4
+O0528,2024-09-08,C010,P034,Dress,Women's Wear,Tanta,2,90.15,180.29,9,September,Q3
+O0529,2024-08-28,C069,P012,Watch,Women's Wear,Mansoura,1,88.09,88.09,8,August,Q3
+O0530,2024-02-17,C100,P019,Jacket,Men's Wear,Mansoura,3,182.45,547.34,2,February,Q1
+O0531,2024-02-06,C034,P037,Scarf,Kids' Wear,Mansoura,2,145.67,291.33,2,February,Q1
+O0532,2024-03-17,C180,P044,Boots,Kids' Wear,Madinaty,4,125.5,502.01,3,March,Q1
+O0533,2024-01-24,C138,P049,Jeans,Women's Wear,Tanta,2,68.78,137.56,1,January,Q1
+O0534,2024-02-27,C147,P017,Scarf,Accessories,Madinaty,1,166.52,166.52,2,February,Q1
+O0535,2024-09-29,C186,P010,Shoes,Kids' Wear,Alex,1,191.46,191.46,9,September,Q3
+O0536,2024-10-04,C096,P049,Jeans,Women's Wear,Mansoura,2,166.03,332.06,10,October,Q4
+O0537,2024-08-04,C001,P047,Socks,Accessories,Alex,4,10.3,41.19,8,August,Q3
+O0538,2024-11-02,C069,P012,Watch,Women's Wear,Alex,4,130.92,523.67,11,November,Q4
+O0539,2024-07-29,C004,P016,Jacket,Women's Wear,Alex,4,19.72,78.86,7,July,Q3
+O0540,2024-12-05,C016,P024,Gloves,Accessories,Madinaty,1,58.95,58.95,12,December,Q4
+O0541,2024-05-14,C024,P019,Jacket,Men's Wear,Alex,2,21.31,42.62,5,May,Q2
+O0542,2024-02-10,C080,P008,Scarf,Women's Wear,Madinaty,3,124.72,374.16,2,February,Q1
+O0543,2024-11-06,C002,P031,Jeans,Men's Wear,Madinaty,1,140.45,140.45,11,November,Q4
+O0544,2024-11-24,C128,P021,Boots,Accessories,Alex,4,31.75,127.01,11,November,Q4
+O0545,2024-05-30,C160,P017,Scarf,Accessories,Tanta,2,82.93,165.86,5,May,Q2
+O0546,2024-03-01,C084,P023,Socks,Kids' Wear,Madinaty,4,96.68,386.74,3,March,Q1
+O0547,2024-01-23,C152,P037,Scarf,Kids' Wear,Mansoura,3,80.12,240.36,1,January,Q1
+O0548,2024-02-29,C140,P016,Jacket,Women's Wear,Madinaty,4,32.99,131.98,2,February,Q1
+O0549,2024-06-18,C178,P006,Skirt,Women's Wear,Alex,4,89.6,358.4,6,June,Q2
+O0550,2024-03-20,C163,P008,Scarf,Women's Wear,Alex,3,152.72,458.17,3,March,Q1
+O0551,2024-03-31,C124,P025,Polo Shirt,Women's Wear,Mansoura,2,23.49,46.98,3,March,Q1
+O0552,2024-07-31,C033,P018,Sweater,Women's Wear,Madinaty,1,25.23,25.23,7,July,Q3
+O0553,2024-05-19,C161,P025,Polo Shirt,Women's Wear,Madinaty,2,77.41,154.81,5,May,Q2
+O0554,2024-09-09,C189,P012,Watch,Women's Wear,Mansoura,3,188.93,566.78,9,September,Q3
+O0555,2024-11-25,C179,P015,Shorts,Kids' Wear,Mansoura,4,137.03,548.12,11,November,Q4
+O0556,2024-10-21,C171,P026,Scarf,Women's Wear,Tanta,2,138.95,277.89,10,October,Q4
+O0557,2024-09-29,C101,P041,Polo Shirt,Accessories,Madinaty,1,78.76,78.76,9,September,Q3
+O0558,2024-05-14,C012,P045,Socks,Accessories,Madinaty,3,122.8,368.39,5,May,Q2
+O0559,2024-10-24,C067,P026,Scarf,Women's Wear,Mansoura,2,11.92,23.85,10,October,Q4
+O0560,2024-03-28,C065,P047,Socks,Accessories,Madinaty,1,130.86,130.86,3,March,Q1
+O0561,2024-05-19,C161,P032,Blazer,Accessories,Alex,3,183.52,550.57,5,May,Q2
+O0562,2024-03-10,C168,P010,Shoes,Kids' Wear,Mansoura,1,126.39,126.39,3,March,Q1
+O0563,2024-12-28,C074,P016,Jacket,Women's Wear,Mansoura,3,176.0,528.01,12,December,Q4
+O0564,2024-11-08,C043,P007,Watch,Kids' Wear,Madinaty,4,147.55,590.22,11,November,Q4
+O0565,2024-04-18,C044,P017,Scarf,Accessories,Tanta,2,32.91,65.81,4,April,Q2
+O0566,2024-04-21,C029,P023,Socks,Kids' Wear,Madinaty,1,181.47,181.47,4,April,Q2
+O0567,2024-02-11,C141,P026,Scarf,Women's Wear,Mansoura,3,22.62,67.87,2,February,Q1
+O0568,2024-08-15,C012,P021,Boots,Accessories,Mansoura,1,111.45,111.45,8,August,Q3
+O0569,2024-08-17,C095,P022,Hat,Women's Wear,Alex,1,37.01,37.01,8,August,Q3
+O0570,2024-01-30,C046,P007,Watch,Kids' Wear,Mansoura,2,12.22,24.45,1,January,Q1
+O0571,2024-12-09,C130,P014,Polo Shirt,Men's Wear,Alex,4,90.19,360.75,12,December,Q4
+O0572,2024-08-24,C035,P015,Shorts,Kids' Wear,Tanta,1,66.06,66.06,8,August,Q3
+O0573,2024-03-23,C081,P007,Watch,Kids' Wear,Alex,3,102.34,307.02,3,March,Q1
+O0574,2024-05-09,C090,P009,Polo Shirt,Men's Wear,Madinaty,3,119.67,359.0,5,May,Q2
+O0575,2024-10-03,C008,P048,Sweater,Women's Wear,Tanta,4,18.31,73.24,10,October,Q4
+O0576,2024-07-16,C093,P008,Scarf,Women's Wear,Alex,3,33.37,100.11,7,July,Q3
+O0577,2024-05-24,C154,P050,T-Shirt,Kids' Wear,Alex,4,116.14,464.57,5,May,Q2
+O0578,2024-04-28,C090,P023,Socks,Kids' Wear,Tanta,3,75.2,225.61,4,April,Q2
+O0579,2024-08-31,C162,P029,Gloves,Men's Wear,Tanta,2,148.54,297.09,8,August,Q3
+O0580,2024-08-31,C115,P018,Sweater,Women's Wear,Alex,1,133.94,133.94,8,August,Q3
+O0581,2024-05-01,C105,P031,Jeans,Men's Wear,Mansoura,2,170.66,341.33,5,May,Q2
+O0582,2024-02-26,C135,P030,Hat,Women's Wear,Tanta,1,141.57,141.57,2,February,Q1
+O0583,2024-05-31,C196,P039,Scarf,Men's Wear,Madinaty,1,91.69,91.69,5,May,Q2
+O0584,2024-06-04,C058,P035,Jeans,Men's Wear,Mansoura,1,137.86,137.86,6,June,Q2
+O0585,2024-03-03,C114,P018,Sweater,Women's Wear,Madinaty,2,62.32,124.64,3,March,Q1
+O0586,2024-12-12,C075,P042,Belt,Accessories,Mansoura,1,68.2,68.2,12,December,Q4
+O0587,2024-10-29,C157,P039,Scarf,Men's Wear,Alex,2,159.91,319.81,10,October,Q4
+O0588,2024-06-16,C120,P017,Scarf,Accessories,Alex,4,94.82,379.28,6,June,Q2
+O0589,2024-11-30,C164,P014,Polo Shirt,Men's Wear,Mansoura,3,161.69,485.08,11,November,Q4
+O0590,2024-04-06,C021,P031,Jeans,Men's Wear,Tanta,3,166.26,498.78,4,April,Q2
+O0591,2024-05-12,C164,P024,Gloves,Accessories,Tanta,1,172.94,172.94,5,May,Q2
+O0592,2024-12-24,C138,P035,Jeans,Men's Wear,Mansoura,2,184.16,368.32,12,December,Q4
+O0593,2024-11-30,C101,P044,Boots,Kids' Wear,Mansoura,3,91.89,275.66,11,November,Q4
+O0594,2024-08-11,C152,P045,Socks,Accessories,Mansoura,2,70.58,141.17,8,August,Q3
+O0595,2024-01-07,C192,P034,Dress,Women's Wear,Mansoura,2,120.62,241.24,1,January,Q1
+O0596,2024-01-24,C177,P003,Polo Shirt,Accessories,Madinaty,1,80.52,80.52,1,January,Q1
+O0597,2024-08-05,C099,P037,Scarf,Kids' Wear,Madinaty,3,124.2,372.61,8,August,Q3
+O0598,2024-02-15,C036,P043,Belt,Kids' Wear,Madinaty,1,144.06,144.06,2,February,Q1
+O0599,2024-09-12,C096,P040,Polo Shirt,Men's Wear,Madinaty,1,140.8,140.8,9,September,Q3
+O0600,2024-09-09,C152,P026,Scarf,Women's Wear,Tanta,3,81.17,243.5,9,September,Q3
+O0601,2024-07-08,C151,P023,Socks,Kids' Wear,Mansoura,3,41.7,125.11,7,July,Q3
+O0602,2024-08-05,C190,P044,Boots,Kids' Wear,Alex,4,91.8,367.2,8,August,Q3
+O0603,2024-09-08,C037,P039,Scarf,Men's Wear,Alex,4,37.09,148.37,9,September,Q3
+O0604,2024-03-21,C012,P015,Shorts,Kids' Wear,Tanta,2,179.12,358.24,3,March,Q1
+O0605,2024-02-14,C113,P049,Jeans,Women's Wear,Tanta,3,75.72,227.15,2,February,Q1
+O0606,2024-11-08,C183,P004,Shoes,Accessories,Tanta,4,39.35,157.39,11,November,Q4
+O0607,2024-04-15,C013,P029,Gloves,Men's Wear,Madinaty,2,14.84,29.67,4,April,Q2
+O0608,2024-04-04,C023,P022,Hat,Women's Wear,Tanta,2,132.71,265.41,4,April,Q2
+O0609,2024-11-15,C099,P025,Polo Shirt,Women's Wear,Mansoura,2,131.01,262.02,11,November,Q4
+O0610,2024-09-03,C105,P013,Jacket,Kids' Wear,Alex,4,74.71,298.86,9,September,Q3
+O0611,2024-06-16,C030,P018,Sweater,Women's Wear,Alex,3,23.63,70.88,6,June,Q2
+O0612,2024-09-18,C017,P033,Sandals,Men's Wear,Alex,1,87.83,87.83,9,September,Q3
+O0613,2024-07-23,C113,P016,Jacket,Women's Wear,Mansoura,2,69.13,138.26,7,July,Q3
+O0614,2024-03-10,C062,P045,Socks,Accessories,Madinaty,4,138.65,554.61,3,March,Q1
+O0615,2024-04-09,C084,P042,Belt,Accessories,Alex,4,125.1,500.39,4,April,Q2
+O0616,2024-05-30,C112,P044,Boots,Kids' Wear,Alex,1,79.27,79.27,5,May,Q2
+O0617,2024-05-10,C086,P002,Shorts,Kids' Wear,Madinaty,1,51.4,51.4,5,May,Q2
+O0618,2024-09-02,C141,P035,Jeans,Men's Wear,Madinaty,4,197.73,790.91,9,September,Q3
+O0619,2024-10-05,C187,P042,Belt,Accessories,Alex,3,96.26,288.78,10,October,Q4
+O0620,2024-08-09,C019,P034,Dress,Women's Wear,Tanta,1,140.77,140.77,8,August,Q3
+O0621,2024-05-05,C177,P030,Hat,Women's Wear,Madinaty,4,36.71,146.82,5,May,Q2
+O0622,2024-07-24,C100,P013,Jacket,Kids' Wear,Mansoura,1,102.26,102.26,7,July,Q3
+O0623,2024-06-24,C140,P013,Jacket,Kids' Wear,Madinaty,3,15.23,45.7,6,June,Q2
+O0624,2024-09-05,C189,P018,Sweater,Women's Wear,Alex,2,106.04,212.07,9,September,Q3
+O0625,2024-03-12,C147,P032,Blazer,Accessories,Tanta,1,193.16,193.16,3,March,Q1
+O0626,2024-01-30,C076,P032,Blazer,Accessories,Alex,3,83.0,249.0,1,January,Q1
+O0627,2024-07-12,C009,P035,Jeans,Men's Wear,Madinaty,4,17.41,69.64,7,July,Q3
+O0628,2024-07-02,C199,P039,Scarf,Men's Wear,Alex,1,15.88,15.88,7,July,Q3
+O0629,2024-11-07,C028,P046,Jeans,Kids' Wear,Tanta,1,83.72,83.72,11,November,Q4
+O0630,2024-06-20,C128,P029,Gloves,Men's Wear,Alex,4,40.4,161.62,6,June,Q2
+O0631,2024-10-31,C052,P049,Jeans,Women's Wear,Mansoura,2,14.44,28.87,10,October,Q4
+O0632,2024-07-11,C083,P029,Gloves,Men's Wear,Madinaty,4,153.68,614.72,7,July,Q3
+O0633,2024-04-22,C111,P044,Boots,Kids' Wear,Mansoura,1,97.12,97.12,4,April,Q2
+O0634,2024-01-27,C144,P016,Jacket,Women's Wear,Tanta,4,64.96,259.83,1,January,Q1
+O0635,2024-01-02,C117,P044,Boots,Kids' Wear,Alex,3,181.02,543.05,1,January,Q1
+O0636,2024-01-26,C069,P047,Socks,Accessories,Tanta,4,32.07,128.27,1,January,Q1
+O0637,2024-04-15,C099,P010,Shoes,Kids' Wear,Tanta,1,191.62,191.62,4,April,Q2
+O0638,2024-10-01,C140,P030,Hat,Women's Wear,Mansoura,4,69.65,278.61,10,October,Q4
+O0639,2024-09-28,C025,P025,Polo Shirt,Women's Wear,Alex,2,178.8,357.59,9,September,Q3
+O0640,2024-08-24,C180,P039,Scarf,Men's Wear,Mansoura,4,124.56,498.24,8,August,Q3
+O0641,2024-05-17,C123,P020,Belt,Men's Wear,Madinaty,2,167.07,334.15,5,May,Q2
+O0642,2024-06-21,C053,P005,Belt,Women's Wear,Alex,3,196.96,590.89,6,June,Q2
+O0643,2024-03-15,C151,P001,Sweater,Accessories,Alex,2,64.8,129.59,3,March,Q1
+O0644,2024-11-05,C144,P030,Hat,Women's Wear,Madinaty,4,192.62,770.46,11,November,Q4
+O0645,2024-03-11,C057,P049,Jeans,Women's Wear,Tanta,1,84.0,84.0,3,March,Q1
+O0646,2024-10-02,C039,P003,Polo Shirt,Accessories,Tanta,2,83.25,166.49,10,October,Q4
+O0647,2024-01-09,C109,P045,Socks,Accessories,Tanta,3,74.67,224.02,1,January,Q1
+O0648,2024-07-25,C181,P014,Polo Shirt,Men's Wear,Mansoura,2,112.87,225.73,7,July,Q3
+O0649,2024-01-11,C042,P030,Hat,Women's Wear,Alex,2,39.29,78.58,1,January,Q1
+O0650,2024-11-04,C186,P050,T-Shirt,Kids' Wear,Madinaty,2,115.21,230.41,11,November,Q4
+O0651,2024-12-15,C167,P004,Shoes,Accessories,Tanta,3,112.92,338.77,12,December,Q4
+O0652,2024-12-09,C142,P018,Sweater,Women's Wear,Mansoura,4,154.76,619.05,12,December,Q4
+O0653,2024-02-17,C122,P037,Scarf,Kids' Wear,Tanta,2,168.39,336.79,2,February,Q1
+O0654,2024-07-12,C133,P025,Polo Shirt,Women's Wear,Tanta,2,93.68,187.37,7,July,Q3
+O0655,2024-12-19,C163,P048,Sweater,Women's Wear,Madinaty,1,67.44,67.44,12,December,Q4
+O0656,2024-01-16,C075,P001,Sweater,Accessories,Madinaty,3,59.27,177.82,1,January,Q1
+O0657,2024-06-28,C146,P046,Jeans,Kids' Wear,Mansoura,2,46.98,93.96,6,June,Q2
+O0658,2024-03-23,C076,P015,Shorts,Kids' Wear,Alex,3,20.95,62.86,3,March,Q1
+O0659,2024-12-12,C009,P009,Polo Shirt,Men's Wear,Mansoura,2,75.07,150.13,12,December,Q4
+O0660,2024-01-16,C074,P015,Shorts,Kids' Wear,Alex,4,61.35,245.39,1,January,Q1
+O0661,2024-12-17,C186,P049,Jeans,Women's Wear,Mansoura,4,193.62,774.48,12,December,Q4
+O0662,2024-06-22,C145,P024,Gloves,Accessories,Madinaty,2,115.96,231.93,6,June,Q2
+O0663,2024-02-12,C007,P004,Shoes,Accessories,Tanta,4,75.98,303.93,2,February,Q1
+O0664,2024-08-13,C174,P012,Watch,Women's Wear,Mansoura,2,120.29,240.58,8,August,Q3
+O0665,2024-06-28,C141,P037,Scarf,Kids' Wear,Madinaty,4,36.45,145.79,6,June,Q2
+O0666,2024-10-08,C168,P037,Scarf,Kids' Wear,Tanta,1,94.37,94.37,10,October,Q4
+O0667,2024-02-04,C170,P043,Belt,Kids' Wear,Tanta,1,128.98,128.98,2,February,Q1
+O0668,2024-12-12,C137,P006,Skirt,Women's Wear,Mansoura,1,102.89,102.89,12,December,Q4
+O0669,2024-09-02,C178,P039,Scarf,Men's Wear,Mansoura,3,86.34,259.01,9,September,Q3
+O0670,2024-04-11,C027,P046,Jeans,Kids' Wear,Mansoura,3,198.83,596.49,4,April,Q2
+O0671,2024-09-06,C122,P024,Gloves,Accessories,Mansoura,1,177.26,177.26,9,September,Q3
+O0672,2024-05-18,C194,P011,Socks,Kids' Wear,Tanta,3,128.45,385.34,5,May,Q2
+O0673,2024-07-17,C005,P013,Jacket,Kids' Wear,Mansoura,4,118.18,472.73,7,July,Q3
+O0674,2024-10-31,C029,P034,Dress,Women's Wear,Mansoura,2,127.93,255.85,10,October,Q4
+O0675,2024-05-19,C165,P025,Polo Shirt,Women's Wear,Alex,2,48.25,96.5,5,May,Q2
+O0676,2024-01-18,C166,P007,Watch,Kids' Wear,Madinaty,2,85.08,170.15,1,January,Q1
+O0677,2024-08-14,C083,P004,Shoes,Accessories,Alex,1,17.5,17.5,8,August,Q3
+O0678,2024-01-11,C136,P008,Scarf,Women's Wear,Tanta,3,100.35,301.06,1,January,Q1
+O0679,2024-01-07,C109,P020,Belt,Men's Wear,Alex,4,113.17,452.7,1,January,Q1
+O0680,2024-04-09,C065,P029,Gloves,Men's Wear,Alex,4,53.27,213.09,4,April,Q2
+O0681,2024-06-12,C086,P045,Socks,Accessories,Tanta,1,193.17,193.17,6,June,Q2
+O0682,2024-03-26,C145,P046,Jeans,Kids' Wear,Tanta,4,182.8,731.19,3,March,Q1
+O0683,2024-11-25,C071,P010,Shoes,Kids' Wear,Madinaty,4,147.21,588.83,11,November,Q4
+O0684,2024-06-04,C045,P043,Belt,Kids' Wear,Alex,4,111.34,445.37,6,June,Q2
+O0685,2024-02-13,C132,P034,Dress,Women's Wear,Tanta,4,175.29,701.18,2,February,Q1
+O0686,2024-01-06,C036,P026,Scarf,Women's Wear,Mansoura,3,34.82,104.47,1,January,Q1
+O0687,2024-11-08,C070,P041,Polo Shirt,Accessories,Mansoura,4,160.2,640.79,11,November,Q4
+O0688,2024-05-26,C159,P049,Jeans,Women's Wear,Alex,2,33.72,67.43,5,May,Q2
+O0689,2024-05-15,C019,P003,Polo Shirt,Accessories,Alex,1,160.9,160.9,5,May,Q2
+O0690,2024-12-04,C189,P006,Skirt,Women's Wear,Mansoura,3,62.4,187.19,12,December,Q4
+O0691,2024-10-04,C108,P005,Belt,Women's Wear,Madinaty,4,176.65,706.59,10,October,Q4
+O0692,2024-12-10,C182,P005,Belt,Women's Wear,Madinaty,3,189.37,568.1,12,December,Q4
+O0693,2024-06-01,C167,P047,Socks,Accessories,Tanta,4,38.27,153.08,6,June,Q2
+O0694,2024-10-18,C091,P023,Socks,Kids' Wear,Tanta,2,97.91,195.82,10,October,Q4
+O0695,2024-04-10,C090,P049,Jeans,Women's Wear,Tanta,1,196.39,196.39,4,April,Q2
+O0696,2024-02-12,C019,P009,Polo Shirt,Men's Wear,Alex,4,101.85,407.39,2,February,Q1
+O0697,2024-11-13,C039,P035,Jeans,Men's Wear,Tanta,4,174.07,696.3,11,November,Q4
+O0698,2024-08-12,C126,P020,Belt,Men's Wear,Alex,4,121.86,487.44,8,August,Q3
+O0699,2024-01-31,C195,P049,Jeans,Women's Wear,Tanta,4,81.31,325.25,1,January,Q1
+O0700,2024-01-11,C173,P042,Belt,Accessories,Alex,1,64.3,64.3,1,January,Q1
+O0701,2024-05-17,C141,P035,Jeans,Men's Wear,Alex,1,48.61,48.61,5,May,Q2
+O0702,2024-11-20,C126,P050,T-Shirt,Kids' Wear,Madinaty,2,154.74,309.48,11,November,Q4
+O0703,2024-06-18,C058,P018,Sweater,Women's Wear,Mansoura,1,83.44,83.44,6,June,Q2
+O0704,2024-11-19,C148,P017,Scarf,Accessories,Madinaty,4,107.14,428.57,11,November,Q4
+O0705,2024-11-06,C200,P024,Gloves,Accessories,Tanta,2,103.54,207.08,11,November,Q4
+O0706,2024-12-01,C061,P003,Polo Shirt,Accessories,Alex,2,119.68,239.37,12,December,Q4
+O0707,2024-08-24,C127,P032,Blazer,Accessories,Alex,2,174.46,348.92,8,August,Q3
+O0708,2024-06-28,C105,P035,Jeans,Men's Wear,Mansoura,4,196.34,785.36,6,June,Q2
+O0709,2024-07-24,C167,P038,Jeans,Men's Wear,Tanta,3,87.44,262.32,7,July,Q3
+O0710,2024-08-20,C001,P013,Jacket,Kids' Wear,Mansoura,4,167.23,668.91,8,August,Q3
+O0711,2024-12-28,C131,P047,Socks,Accessories,Madinaty,1,155.26,155.26,12,December,Q4
+O0712,2024-12-25,C092,P025,Polo Shirt,Women's Wear,Tanta,1,118.97,118.97,12,December,Q4
+O0713,2024-10-29,C190,P009,Polo Shirt,Men's Wear,Madinaty,4,191.65,766.6,10,October,Q4
+O0714,2024-10-18,C191,P004,Shoes,Accessories,Tanta,4,48.09,192.36,10,October,Q4
+O0715,2024-04-28,C113,P014,Polo Shirt,Men's Wear,Madinaty,2,30.76,61.52,4,April,Q2
+O0716,2024-11-21,C153,P037,Scarf,Kids' Wear,Madinaty,4,172.25,689.01,11,November,Q4
+O0717,2024-05-29,C056,P034,Dress,Women's Wear,Alex,2,93.44,186.88,5,May,Q2
+O0718,2024-10-13,C161,P011,Socks,Kids' Wear,Madinaty,1,170.92,170.92,10,October,Q4
+O0719,2024-10-19,C166,P041,Polo Shirt,Accessories,Madinaty,2,179.69,359.37,10,October,Q4
+O0720,2024-03-19,C117,P003,Polo Shirt,Accessories,Madinaty,4,21.87,87.47,3,March,Q1
+O0721,2024-03-08,C134,P028,Dress,Kids' Wear,Alex,1,177.86,177.86,3,March,Q1
+O0722,2024-11-15,C058,P029,Gloves,Men's Wear,Mansoura,3,95.18,285.54,11,November,Q4
+O0723,2024-08-29,C044,P009,Polo Shirt,Men's Wear,Alex,2,106.98,213.96,8,August,Q3
+O0724,2024-11-05,C173,P003,Polo Shirt,Accessories,Madinaty,1,129.05,129.05,11,November,Q4
+O0725,2024-10-29,C160,P025,Polo Shirt,Women's Wear,Mansoura,2,186.01,372.03,10,October,Q4
+O0726,2024-09-20,C173,P034,Dress,Women's Wear,Alex,1,13.63,13.63,9,September,Q3
+O0727,2024-05-28,C061,P012,Watch,Women's Wear,Alex,1,100.6,100.6,5,May,Q2
+O0728,2024-03-06,C047,P042,Belt,Accessories,Alex,2,140.67,281.33,3,March,Q1
+O0729,2024-05-21,C149,P009,Polo Shirt,Men's Wear,Madinaty,3,147.31,441.94,5,May,Q2
+O0730,2024-11-01,C080,P015,Shorts,Kids' Wear,Tanta,1,141.58,141.58,11,November,Q4
+O0731,2024-08-05,C118,P040,Polo Shirt,Men's Wear,Madinaty,1,35.54,35.54,8,August,Q3
+O0732,2024-03-16,C164,P025,Polo Shirt,Women's Wear,Tanta,1,66.89,66.89,3,March,Q1
+O0733,2024-07-27,C147,P005,Belt,Women's Wear,Mansoura,3,78.16,234.47,7,July,Q3
+O0734,2024-05-19,C020,P011,Socks,Kids' Wear,Alex,3,162.84,488.53,5,May,Q2
+O0735,2024-06-25,C185,P034,Dress,Women's Wear,Madinaty,4,62.96,251.86,6,June,Q2
+O0736,2024-01-07,C146,P024,Gloves,Accessories,Madinaty,2,50.03,100.07,1,January,Q1
+O0737,2024-01-13,C047,P015,Shorts,Kids' Wear,Alex,3,191.92,575.75,1,January,Q1
+O0738,2024-10-11,C049,P038,Jeans,Men's Wear,Mansoura,2,11.68,23.37,10,October,Q4
+O0739,2024-02-19,C014,P008,Scarf,Women's Wear,Mansoura,4,199.59,798.34,2,February,Q1
+O0740,2024-10-20,C143,P005,Belt,Women's Wear,Madinaty,2,138.6,277.19,10,October,Q4
+O0741,2024-05-06,C159,P048,Sweater,Women's Wear,Mansoura,3,167.41,502.23,5,May,Q2
+O0742,2024-02-10,C001,P026,Scarf,Women's Wear,Tanta,2,65.98,131.96,2,February,Q1
+O0743,2024-05-04,C117,P018,Sweater,Women's Wear,Mansoura,3,12.72,38.16,5,May,Q2
+O0744,2024-02-28,C054,P006,Skirt,Women's Wear,Mansoura,2,150.2,300.39,2,February,Q1
+O0745,2024-06-10,C118,P037,Scarf,Kids' Wear,Mansoura,3,168.49,505.46,6,June,Q2
+O0746,2024-01-25,C003,P048,Sweater,Women's Wear,Mansoura,3,150.69,452.07,1,January,Q1
+O0747,2024-12-04,C144,P013,Jacket,Kids' Wear,Tanta,2,37.14,74.28,12,December,Q4
+O0748,2024-12-20,C185,P028,Dress,Kids' Wear,Madinaty,4,153.15,612.61,12,December,Q4
+O0749,2024-03-13,C012,P005,Belt,Women's Wear,Mansoura,1,156.1,156.1,3,March,Q1
+O0750,2024-02-23,C074,P013,Jacket,Kids' Wear,Alex,4,135.12,540.49,2,February,Q1
+O0751,2024-05-12,C016,P017,Scarf,Accessories,Alex,2,155.56,311.12,5,May,Q2
+O0752,2024-10-19,C200,P050,T-Shirt,Kids' Wear,Mansoura,4,170.73,682.9,10,October,Q4
+O0753,2024-06-28,C102,P040,Polo Shirt,Men's Wear,Mansoura,3,126.58,379.75,6,June,Q2
+O0754,2024-11-26,C152,P045,Socks,Accessories,Tanta,1,26.83,26.83,11,November,Q4
+O0755,2024-07-10,C156,P032,Blazer,Accessories,Mansoura,2,102.65,205.3,7,July,Q3
+O0756,2024-06-16,C117,P029,Gloves,Men's Wear,Tanta,2,24.75,49.51,6,June,Q2
+O0757,2024-10-30,C008,P003,Polo Shirt,Accessories,Mansoura,2,87.43,174.87,10,October,Q4
+O0758,2024-10-31,C122,P040,Polo Shirt,Men's Wear,Alex,1,87.35,87.35,10,October,Q4
+O0759,2024-08-22,C092,P034,Dress,Women's Wear,Mansoura,3,22.54,67.63,8,August,Q3
+O0760,2024-12-29,C164,P040,Polo Shirt,Men's Wear,Madinaty,2,76.28,152.55,12,December,Q4
+O0761,2024-10-18,C090,P027,Jacket,Accessories,Mansoura,4,31.09,124.36,10,October,Q4
+O0762,2024-01-25,C136,P013,Jacket,Kids' Wear,Tanta,2,163.56,327.13,1,January,Q1
+O0763,2024-05-28,C186,P045,Socks,Accessories,Tanta,2,190.06,380.12,5,May,Q2
+O0764,2024-04-10,C060,P033,Sandals,Men's Wear,Tanta,2,23.74,47.48,4,April,Q2
+O0765,2024-03-30,C178,P006,Skirt,Women's Wear,Madinaty,2,191.47,382.94,3,March,Q1
+O0766,2024-12-09,C028,P024,Gloves,Accessories,Mansoura,3,109.29,327.87,12,December,Q4
+O0767,2024-09-30,C101,P019,Jacket,Men's Wear,Madinaty,4,66.92,267.67,9,September,Q3
+O0768,2024-01-06,C041,P016,Jacket,Women's Wear,Tanta,3,24.6,73.81,1,January,Q1
+O0769,2024-01-10,C192,P040,Polo Shirt,Men's Wear,Alex,4,105.12,420.47,1,January,Q1
+O0770,2024-08-17,C155,P028,Dress,Kids' Wear,Tanta,2,160.96,321.92,8,August,Q3
+O0771,2024-09-09,C191,P033,Sandals,Men's Wear,Mansoura,1,144.35,144.35,9,September,Q3
+O0772,2024-11-23,C145,P048,Sweater,Women's Wear,Mansoura,3,19.54,58.63,11,November,Q4
+O0773,2024-11-12,C161,P041,Polo Shirt,Accessories,Madinaty,1,23.85,23.85,11,November,Q4
+O0774,2024-07-18,C157,P013,Jacket,Kids' Wear,Mansoura,3,86.55,259.64,7,July,Q3
+O0775,2024-10-11,C141,P043,Belt,Kids' Wear,Tanta,2,66.11,132.21,10,October,Q4
+O0776,2024-04-08,C046,P045,Socks,Accessories,Madinaty,3,54.15,162.46,4,April,Q2
+O0777,2024-07-28,C035,P025,Polo Shirt,Women's Wear,Alex,2,63.39,126.78,7,July,Q3
+O0778,2024-12-16,C134,P042,Belt,Accessories,Madinaty,3,162.66,487.99,12,December,Q4
+O0779,2024-03-14,C082,P036,Gloves,Kids' Wear,Mansoura,2,186.55,373.11,3,March,Q1
+O0780,2024-06-11,C115,P027,Jacket,Accessories,Alex,2,86.97,173.94,6,June,Q2
+O0781,2024-07-15,C197,P038,Jeans,Men's Wear,Mansoura,4,182.16,728.64,7,July,Q3
+O0782,2024-08-22,C047,P007,Watch,Kids' Wear,Alex,2,71.08,142.17,8,August,Q3
+O0783,2024-06-11,C153,P005,Belt,Women's Wear,Mansoura,4,100.52,402.09,6,June,Q2
+O0784,2024-05-01,C194,P043,Belt,Kids' Wear,Tanta,2,52.95,105.89,5,May,Q2
+O0785,2024-05-10,C010,P045,Socks,Accessories,Alex,1,131.69,131.69,5,May,Q2
+O0786,2024-02-05,C056,P031,Jeans,Men's Wear,Tanta,2,196.01,392.01,2,February,Q1
+O0787,2024-09-23,C030,P023,Socks,Kids' Wear,Madinaty,1,124.66,124.66,9,September,Q3
+O0788,2024-09-18,C109,P042,Belt,Accessories,Madinaty,1,77.98,77.98,9,September,Q3
+O0789,2024-05-19,C005,P010,Shoes,Kids' Wear,Tanta,2,133.09,266.17,5,May,Q2
+O0790,2024-04-12,C119,P032,Blazer,Accessories,Tanta,1,33.35,33.35,4,April,Q2
+O0791,2024-05-20,C033,P043,Belt,Kids' Wear,Tanta,4,178.85,715.38,5,May,Q2
+O0792,2024-08-18,C118,P030,Hat,Women's Wear,Madinaty,3,105.59,316.76,8,August,Q3
+O0793,2024-04-24,C065,P039,Scarf,Men's Wear,Tanta,2,95.38,190.75,4,April,Q2
+O0794,2024-11-23,C146,P031,Jeans,Men's Wear,Alex,1,121.31,121.31,11,November,Q4
+O0795,2024-07-03,C177,P018,Sweater,Women's Wear,Tanta,2,128.71,257.42,7,July,Q3
+O0796,2024-04-16,C011,P036,Gloves,Kids' Wear,Alex,4,23.64,94.55,4,April,Q2
+O0797,2024-11-13,C085,P002,Shorts,Kids' Wear,Madinaty,2,139.7,279.39,11,November,Q4
+O0798,2024-03-29,C026,P014,Polo Shirt,Men's Wear,Madinaty,2,55.97,111.93,3,March,Q1
+O0799,2024-04-11,C063,P013,Jacket,Kids' Wear,Madinaty,1,145.65,145.65,4,April,Q2
+O0800,2024-01-02,C086,P029,Gloves,Men's Wear,Madinaty,4,166.28,665.13,1,January,Q1
+O0801,2024-07-11,C059,P012,Watch,Women's Wear,Tanta,3,162.75,488.26,7,July,Q3
+O0802,2024-01-07,C027,P039,Scarf,Men's Wear,Tanta,3,114.98,344.93,1,January,Q1
+O0803,2024-08-18,C177,P002,Shorts,Kids' Wear,Alex,1,108.83,108.83,8,August,Q3
+O0804,2024-05-19,C161,P032,Blazer,Accessories,Madinaty,2,37.15,74.29,5,May,Q2
+O0805,2024-01-16,C098,P013,Jacket,Kids' Wear,Alex,1,157.32,157.32,1,January,Q1
+O0806,2024-07-15,C105,P046,Jeans,Kids' Wear,Alex,1,61.57,61.57,7,July,Q3
+O0807,2024-02-09,C099,P027,Jacket,Accessories,Madinaty,1,104.37,104.37,2,February,Q1
+O0808,2024-07-17,C129,P049,Jeans,Women's Wear,Mansoura,2,64.01,128.02,7,July,Q3
+O0809,2024-01-22,C149,P041,Polo Shirt,Accessories,Alex,4,35.43,141.71,1,January,Q1
+O0810,2024-02-24,C055,P017,Scarf,Accessories,Alex,1,129.62,129.62,2,February,Q1
+O0811,2024-01-29,C006,P040,Polo Shirt,Men's Wear,Alex,2,20.32,40.65,1,January,Q1
+O0812,2024-01-08,C197,P031,Jeans,Men's Wear,Madinaty,4,152.24,608.97,1,January,Q1
+O0813,2024-04-13,C095,P034,Dress,Women's Wear,Madinaty,1,70.34,70.34,4,April,Q2
+O0814,2024-01-21,C133,P024,Gloves,Accessories,Alex,3,10.03,30.08,1,January,Q1
+O0815,2024-12-06,C102,P045,Socks,Accessories,Mansoura,4,107.11,428.46,12,December,Q4
+O0816,2024-02-17,C003,P035,Jeans,Men's Wear,Madinaty,1,18.9,18.9,2,February,Q1
+O0817,2024-05-05,C181,P048,Sweater,Women's Wear,Tanta,4,62.47,249.89,5,May,Q2
+O0818,2024-12-05,C023,P006,Skirt,Women's Wear,Alex,4,144.33,577.3,12,December,Q4
+O0819,2024-10-09,C053,P019,Jacket,Men's Wear,Tanta,4,21.91,87.64,10,October,Q4
+O0820,2024-11-26,C165,P030,Hat,Women's Wear,Mansoura,4,169.47,677.9,11,November,Q4
+O0821,2024-05-26,C083,P007,Watch,Kids' Wear,Alex,4,10.73,42.9,5,May,Q2
+O0822,2024-10-10,C145,P010,Shoes,Kids' Wear,Alex,4,56.9,227.59,10,October,Q4
+O0823,2024-02-24,C085,P041,Polo Shirt,Accessories,Tanta,1,150.77,150.77,2,February,Q1
+O0824,2024-03-13,C078,P032,Blazer,Accessories,Madinaty,3,70.09,210.27,3,March,Q1
+O0825,2024-07-01,C110,P034,Dress,Women's Wear,Tanta,2,29.36,58.72,7,July,Q3
+O0826,2024-07-01,C001,P028,Dress,Kids' Wear,Tanta,4,78.44,313.78,7,July,Q3
+O0827,2024-01-27,C051,P015,Shorts,Kids' Wear,Madinaty,2,61.37,122.75,1,January,Q1
+O0828,2024-08-29,C173,P030,Hat,Women's Wear,Madinaty,1,170.12,170.12,8,August,Q3
+O0829,2024-07-05,C004,P037,Scarf,Kids' Wear,Tanta,4,69.54,278.14,7,July,Q3
+O0830,2024-07-08,C190,P029,Gloves,Men's Wear,Madinaty,3,159.9,479.69,7,July,Q3
+O0831,2024-02-27,C193,P022,Hat,Women's Wear,Madinaty,2,179.46,358.91,2,February,Q1
+O0832,2024-09-01,C113,P004,Shoes,Accessories,Mansoura,4,92.43,369.7,9,September,Q3
+O0833,2024-08-02,C032,P020,Belt,Men's Wear,Alex,1,182.89,182.89,8,August,Q3
+O0834,2024-01-28,C034,P032,Blazer,Accessories,Tanta,3,81.69,245.07,1,January,Q1
+O0835,2024-04-16,C092,P036,Gloves,Kids' Wear,Tanta,2,193.17,386.35,4,April,Q2
+O0836,2024-03-20,C095,P050,T-Shirt,Kids' Wear,Tanta,2,26.97,53.93,3,March,Q1
+O0837,2024-05-29,C072,P004,Shoes,Accessories,Madinaty,4,140.53,562.13,5,May,Q2
+O0838,2024-03-07,C039,P027,Jacket,Accessories,Mansoura,3,103.82,311.47,3,March,Q1
+O0839,2024-09-26,C154,P017,Scarf,Accessories,Alex,3,83.65,250.96,9,September,Q3
+O0840,2024-06-19,C162,P012,Watch,Women's Wear,Mansoura,3,130.22,390.65,6,June,Q2
+O0841,2024-12-08,C182,P022,Hat,Women's Wear,Alex,3,143.73,431.2,12,December,Q4
+O0842,2024-02-24,C118,P017,Scarf,Accessories,Alex,1,10.83,10.83,2,February,Q1
+O0843,2024-07-16,C003,P010,Shoes,Kids' Wear,Alex,3,41.72,125.16,7,July,Q3
+O0844,2024-07-11,C123,P001,Sweater,Accessories,Tanta,2,145.48,290.96,7,July,Q3
+O0845,2024-08-31,C050,P022,Hat,Women's Wear,Madinaty,2,136.61,273.23,8,August,Q3
+O0846,2024-07-27,C012,P026,Scarf,Women's Wear,Mansoura,1,193.55,193.55,7,July,Q3
+O0847,2024-02-18,C193,P018,Sweater,Women's Wear,Tanta,2,154.6,309.19,2,February,Q1
+O0848,2024-10-10,C054,P050,T-Shirt,Kids' Wear,Tanta,2,190.65,381.29,10,October,Q4
+O0849,2024-04-03,C133,P014,Polo Shirt,Men's Wear,Tanta,3,143.48,430.45,4,April,Q2
+O0850,2024-07-13,C057,P047,Socks,Accessories,Mansoura,2,66.63,133.26,7,July,Q3
+O0851,2024-03-07,C145,P029,Gloves,Men's Wear,Mansoura,1,30.02,30.02,3,March,Q1
+O0852,2024-08-22,C112,P012,Watch,Women's Wear,Tanta,3,158.55,475.64,8,August,Q3
+O0853,2024-03-22,C047,P036,Gloves,Kids' Wear,Mansoura,4,132.39,529.55,3,March,Q1
+O0854,2024-08-29,C151,P035,Jeans,Men's Wear,Alex,3,19.16,57.47,8,August,Q3
+O0855,2024-09-12,C085,P012,Watch,Women's Wear,Mansoura,1,78.41,78.41,9,September,Q3
+O0856,2024-03-06,C142,P007,Watch,Kids' Wear,Alex,3,191.79,575.38,3,March,Q1
+O0857,2024-11-05,C066,P029,Gloves,Men's Wear,Alex,3,105.08,315.23,11,November,Q4
+O0858,2024-06-07,C075,P011,Socks,Kids' Wear,Tanta,1,92.22,92.22,6,June,Q2
+O0859,2024-11-26,C179,P033,Sandals,Men's Wear,Alex,3,96.96,290.89,11,November,Q4
+O0860,2024-08-11,C103,P006,Skirt,Women's Wear,Tanta,1,49.69,49.69,8,August,Q3
+O0861,2024-06-08,C166,P047,Socks,Accessories,Mansoura,1,80.05,80.05,6,June,Q2
+O0862,2024-07-27,C192,P015,Shorts,Kids' Wear,Mansoura,4,80.26,321.06,7,July,Q3
+O0863,2024-06-15,C038,P032,Blazer,Accessories,Alex,2,19.95,39.89,6,June,Q2
+O0864,2024-09-03,C050,P011,Socks,Kids' Wear,Tanta,2,155.84,311.68,9,September,Q3
+O0865,2024-06-24,C098,P023,Socks,Kids' Wear,Mansoura,3,89.14,267.41,6,June,Q2
+O0866,2024-02-02,C082,P026,Scarf,Women's Wear,Mansoura,3,166.21,498.64,2,February,Q1
+O0867,2024-11-02,C030,P034,Dress,Women's Wear,Madinaty,4,171.57,686.26,11,November,Q4
+O0868,2024-07-13,C079,P046,Jeans,Kids' Wear,Tanta,4,50.28,201.12,7,July,Q3
+O0869,2024-10-07,C091,P034,Dress,Women's Wear,Tanta,4,134.9,539.59,10,October,Q4
+O0870,2024-02-28,C179,P029,Gloves,Men's Wear,Mansoura,1,99.73,99.73,2,February,Q1
+O0871,2024-09-23,C191,P004,Shoes,Accessories,Madinaty,4,177.23,708.92,9,September,Q3
+O0872,2024-01-13,C052,P017,Scarf,Accessories,Alex,4,50.99,203.96,1,January,Q1
+O0873,2024-08-31,C166,P035,Jeans,Men's Wear,Alex,3,138.78,416.35,8,August,Q3
+O0874,2024-01-24,C079,P013,Jacket,Kids' Wear,Tanta,4,125.47,501.89,1,January,Q1
+O0875,2024-05-10,C030,P041,Polo Shirt,Accessories,Mansoura,1,66.11,66.11,5,May,Q2
+O0876,2024-02-10,C106,P039,Scarf,Men's Wear,Madinaty,1,35.95,35.95,2,February,Q1
+O0877,2024-05-12,C051,P015,Shorts,Kids' Wear,Madinaty,3,133.81,401.43,5,May,Q2
+O0878,2024-03-29,C081,P029,Gloves,Men's Wear,Alex,4,150.33,601.33,3,March,Q1
+O0879,2024-03-20,C133,P029,Gloves,Men's Wear,Madinaty,4,69.97,279.88,3,March,Q1
+O0880,2024-10-30,C029,P011,Socks,Kids' Wear,Tanta,1,132.52,132.52,10,October,Q4
+O0881,2024-11-24,C132,P032,Blazer,Accessories,Madinaty,4,85.07,340.3,11,November,Q4
+O0882,2024-02-05,C138,P002,Shorts,Kids' Wear,Mansoura,4,145.51,582.04,2,February,Q1
+O0883,2024-11-06,C184,P047,Socks,Accessories,Alex,4,47.85,191.4,11,November,Q4
+O0884,2024-10-21,C145,P014,Polo Shirt,Men's Wear,Madinaty,2,179.14,358.28,10,October,Q4
+O0885,2024-08-03,C074,P020,Belt,Men's Wear,Tanta,3,64.61,193.82,8,August,Q3
+O0886,2024-06-21,C017,P022,Hat,Women's Wear,Madinaty,2,79.88,159.76,6,June,Q2
+O0887,2024-07-13,C084,P011,Socks,Kids' Wear,Alex,3,21.04,63.11,7,July,Q3
+O0888,2024-01-29,C069,P027,Jacket,Accessories,Mansoura,1,31.19,31.19,1,January,Q1
+O0889,2024-03-26,C034,P003,Polo Shirt,Accessories,Alex,4,108.01,432.06,3,March,Q1
+O0890,2024-03-18,C006,P017,Scarf,Accessories,Madinaty,3,60.84,182.53,3,March,Q1
+O0891,2024-11-15,C053,P044,Boots,Kids' Wear,Tanta,2,168.74,337.48,11,November,Q4
+O0892,2024-04-26,C194,P028,Dress,Kids' Wear,Madinaty,4,12.79,51.17,4,April,Q2
+O0893,2024-03-23,C126,P029,Gloves,Men's Wear,Tanta,1,82.03,82.03,3,March,Q1
+O0894,2024-04-25,C043,P021,Boots,Accessories,Tanta,3,74.1,222.29,4,April,Q2
+O0895,2024-01-24,C115,P047,Socks,Accessories,Tanta,3,13.67,41.02,1,January,Q1
+O0896,2024-03-24,C111,P016,Jacket,Women's Wear,Alex,3,33.63,100.89,3,March,Q1
+O0897,2024-06-30,C151,P037,Scarf,Kids' Wear,Alex,4,88.59,354.37,6,June,Q2
+O0898,2024-04-30,C183,P020,Belt,Men's Wear,Madinaty,2,103.64,207.29,4,April,Q2
+O0899,2024-05-13,C080,P006,Skirt,Women's Wear,Madinaty,2,86.82,173.63,5,May,Q2
+O0900,2024-02-25,C095,P019,Jacket,Men's Wear,Alex,3,110.88,332.63,2,February,Q1
+O0901,2024-11-03,C118,P005,Belt,Women's Wear,Tanta,1,123.08,123.08,11,November,Q4
+O0902,2024-11-08,C144,P003,Polo Shirt,Accessories,Alex,1,11.89,11.89,11,November,Q4
+O0903,2024-05-06,C008,P001,Sweater,Accessories,Madinaty,2,98.18,196.36,5,May,Q2
+O0904,2024-02-08,C132,P038,Jeans,Men's Wear,Alex,1,193.06,193.06,2,February,Q1
+O0905,2024-03-11,C104,P015,Shorts,Kids' Wear,Alex,2,108.62,217.23,3,March,Q1
+O0906,2024-04-27,C132,P034,Dress,Women's Wear,Tanta,3,138.73,416.2,4,April,Q2
+O0907,2024-12-09,C184,P035,Jeans,Men's Wear,Tanta,2,69.25,138.51,12,December,Q4
+O0908,2024-10-14,C025,P049,Jeans,Women's Wear,Alex,2,157.06,314.12,10,October,Q4
+O0909,2024-09-27,C195,P025,Polo Shirt,Women's Wear,Tanta,3,156.86,470.57,9,September,Q3
+O0910,2024-02-10,C096,P024,Gloves,Accessories,Tanta,1,109.05,109.05,2,February,Q1
+O0911,2024-06-26,C195,P012,Watch,Women's Wear,Alex,2,195.44,390.89,6,June,Q2
+O0912,2024-06-06,C155,P018,Sweater,Women's Wear,Madinaty,2,33.85,67.71,6,June,Q2
+O0913,2024-04-23,C093,P015,Shorts,Kids' Wear,Tanta,3,13.22,39.66,4,April,Q2
+O0914,2024-02-17,C160,P044,Boots,Kids' Wear,Tanta,1,156.33,156.33,2,February,Q1
+O0915,2024-09-17,C178,P016,Jacket,Women's Wear,Alex,2,163.36,326.72,9,September,Q3
+O0916,2024-06-23,C061,P027,Jacket,Accessories,Madinaty,3,32.84,98.52,6,June,Q2
+O0917,2024-02-10,C122,P008,Scarf,Women's Wear,Mansoura,2,60.46,120.92,2,February,Q1
+O0918,2024-09-04,C051,P046,Jeans,Kids' Wear,Madinaty,4,13.33,53.34,9,September,Q3
+O0919,2024-01-27,C147,P025,Polo Shirt,Women's Wear,Mansoura,3,65.73,197.19,1,January,Q1
+O0920,2024-09-09,C021,P017,Scarf,Accessories,Alex,1,156.9,156.9,9,September,Q3
+O0921,2024-04-23,C005,P029,Gloves,Men's Wear,Tanta,1,108.41,108.41,4,April,Q2
+O0922,2024-01-12,C092,P008,Scarf,Women's Wear,Alex,1,76.14,76.14,1,January,Q1
+O0923,2024-10-17,C170,P015,Shorts,Kids' Wear,Alex,1,80.63,80.63,10,October,Q4
+O0924,2024-09-08,C061,P027,Jacket,Accessories,Tanta,2,10.26,20.51,9,September,Q3
+O0925,2024-10-19,C022,P046,Jeans,Kids' Wear,Tanta,2,66.96,133.92,10,October,Q4
+O0926,2024-02-20,C149,P050,T-Shirt,Kids' Wear,Alex,1,132.83,132.83,2,February,Q1
+O0927,2024-09-30,C070,P007,Watch,Kids' Wear,Tanta,1,195.1,195.1,9,September,Q3
+O0928,2024-10-14,C001,P003,Polo Shirt,Accessories,Alex,1,170.94,170.94,10,October,Q4
+O0929,2024-07-12,C133,P029,Gloves,Men's Wear,Madinaty,2,14.48,28.97,7,July,Q3
+O0930,2024-11-04,C012,P044,Boots,Kids' Wear,Tanta,1,180.73,180.73,11,November,Q4
+O0931,2024-11-02,C090,P024,Gloves,Accessories,Alex,1,158.81,158.81,11,November,Q4
+O0932,2024-04-23,C046,P003,Polo Shirt,Accessories,Madinaty,4,158.27,633.09,4,April,Q2
+O0933,2024-02-26,C034,P020,Belt,Men's Wear,Mansoura,4,97.02,388.08,2,February,Q1
+O0934,2024-03-02,C177,P046,Jeans,Kids' Wear,Madinaty,1,85.62,85.62,3,March,Q1
+O0935,2024-05-04,C078,P015,Shorts,Kids' Wear,Tanta,3,67.55,202.66,5,May,Q2
+O0936,2024-06-04,C045,P025,Polo Shirt,Women's Wear,Alex,1,22.48,22.48,6,June,Q2
+O0937,2024-02-27,C155,P030,Hat,Women's Wear,Tanta,4,53.36,213.46,2,February,Q1
+O0938,2024-01-10,C073,P014,Polo Shirt,Men's Wear,Madinaty,3,56.85,170.56,1,January,Q1
+O0939,2024-12-07,C026,P007,Watch,Kids' Wear,Alex,3,101.97,305.92,12,December,Q4
+O0940,2024-04-14,C047,P017,Scarf,Accessories,Madinaty,1,152.01,152.01,4,April,Q2
+O0941,2024-04-03,C121,P044,Boots,Kids' Wear,Alex,4,100.02,400.1,4,April,Q2
+O0942,2024-09-14,C056,P020,Belt,Men's Wear,Tanta,4,20.99,83.96,9,September,Q3
+O0943,2024-04-30,C094,P036,Gloves,Kids' Wear,Madinaty,3,191.98,575.94,4,April,Q2
+O0944,2024-04-12,C107,P009,Polo Shirt,Men's Wear,Alex,1,189.12,189.12,4,April,Q2
+O0945,2024-02-10,C063,P038,Jeans,Men's Wear,Mansoura,2,159.19,318.37,2,February,Q1
+O0946,2024-08-13,C048,P048,Sweater,Women's Wear,Madinaty,2,198.35,396.7,8,August,Q3
+O0947,2024-02-17,C061,P022,Hat,Women's Wear,Mansoura,4,113.45,453.81,2,February,Q1
+O0948,2024-01-08,C081,P002,Shorts,Kids' Wear,Mansoura,2,192.93,385.85,1,January,Q1
+O0949,2024-09-06,C026,P024,Gloves,Accessories,Madinaty,4,24.36,97.46,9,September,Q3
+O0950,2024-03-20,C036,P008,Scarf,Women's Wear,Madinaty,4,79.48,317.92,3,March,Q1
+O0951,2024-02-20,C001,P011,Socks,Kids' Wear,Tanta,4,52.82,211.29,2,February,Q1
+O0952,2024-09-14,C008,P013,Jacket,Kids' Wear,Mansoura,2,47.21,94.42,9,September,Q3
+O0953,2024-10-19,C113,P017,Scarf,Accessories,Alex,4,36.75,147.01,10,October,Q4
+O0954,2024-05-30,C099,P008,Scarf,Women's Wear,Alex,3,128.26,384.78,5,May,Q2
+O0955,2024-01-28,C180,P021,Boots,Accessories,Alex,1,158.45,158.45,1,January,Q1
+O0956,2024-12-29,C047,P018,Sweater,Women's Wear,Mansoura,1,119.88,119.88,12,December,Q4
+O0957,2024-05-05,C127,P030,Hat,Women's Wear,Tanta,4,37.92,151.69,5,May,Q2
+O0958,2024-06-09,C056,P018,Sweater,Women's Wear,Madinaty,1,164.11,164.11,6,June,Q2
+O0959,2024-06-26,C014,P046,Jeans,Kids' Wear,Madinaty,2,130.83,261.66,6,June,Q2
+O0960,2024-03-31,C028,P047,Socks,Accessories,Tanta,2,83.75,167.5,3,March,Q1
+O0961,2024-02-29,C078,P031,Jeans,Men's Wear,Alex,1,138.08,138.08,2,February,Q1
+O0962,2024-03-27,C130,P038,Jeans,Men's Wear,Madinaty,2,59.38,118.76,3,March,Q1
+O0963,2024-12-19,C109,P032,Blazer,Accessories,Mansoura,1,75.59,75.59,12,December,Q4
+O0964,2024-10-21,C154,P011,Socks,Kids' Wear,Madinaty,1,184.32,184.32,10,October,Q4
+O0965,2024-11-18,C014,P045,Socks,Accessories,Mansoura,1,65.2,65.2,11,November,Q4
+O0966,2024-02-07,C187,P025,Polo Shirt,Women's Wear,Mansoura,4,99.3,397.19,2,February,Q1
+O0967,2024-03-07,C056,P033,Sandals,Men's Wear,Madinaty,1,179.13,179.13,3,March,Q1
+O0968,2024-05-02,C115,P038,Jeans,Men's Wear,Mansoura,4,144.47,577.87,5,May,Q2
+O0969,2024-10-22,C007,P041,Polo Shirt,Accessories,Mansoura,1,21.82,21.82,10,October,Q4
+O0970,2024-05-26,C003,P008,Scarf,Women's Wear,Mansoura,1,37.99,37.99,5,May,Q2
+O0971,2024-01-06,C111,P011,Socks,Kids' Wear,Madinaty,1,11.49,11.49,1,January,Q1
+O0972,2024-06-28,C151,P022,Hat,Women's Wear,Alex,2,129.88,259.75,6,June,Q2
+O0973,2024-05-30,C107,P024,Gloves,Accessories,Tanta,4,95.06,380.23,5,May,Q2
+O0974,2024-11-18,C018,P041,Polo Shirt,Accessories,Mansoura,4,35.51,142.05,11,November,Q4
+O0975,2024-08-24,C038,P017,Scarf,Accessories,Alex,1,192.01,192.01,8,August,Q3
+O0976,2024-03-06,C115,P012,Watch,Women's Wear,Alex,1,110.64,110.64,3,March,Q1
+O0977,2024-09-17,C015,P046,Jeans,Kids' Wear,Mansoura,2,55.96,111.92,9,September,Q3
+O0978,2024-05-28,C192,P032,Blazer,Accessories,Alex,2,105.11,210.23,5,May,Q2
+O0979,2024-10-13,C119,P015,Shorts,Kids' Wear,Tanta,2,139.13,278.26,10,October,Q4
+O0980,2024-09-18,C028,P016,Jacket,Women's Wear,Tanta,4,24.49,97.94,9,September,Q3
+O0981,2024-01-02,C039,P022,Hat,Women's Wear,Alex,4,62.19,248.77,1,January,Q1
+O0982,2024-12-06,C185,P028,Dress,Kids' Wear,Alex,4,163.32,653.29,12,December,Q4
+O0983,2024-04-27,C017,P020,Belt,Men's Wear,Mansoura,1,97.34,97.34,4,April,Q2
+O0984,2024-06-21,C086,P033,Sandals,Men's Wear,Mansoura,4,113.85,455.4,6,June,Q2
+O0985,2024-03-11,C126,P010,Shoes,Kids' Wear,Alex,3,92.24,276.71,3,March,Q1
+O0986,2024-01-29,C044,P040,Polo Shirt,Men's Wear,Tanta,3,18.34,55.02,1,January,Q1
+O0987,2024-03-22,C025,P032,Blazer,Accessories,Tanta,2,41.49,82.98,3,March,Q1
+O0988,2024-04-22,C145,P050,T-Shirt,Kids' Wear,Mansoura,4,94.65,378.61,4,April,Q2
+O0989,2024-02-16,C013,P033,Sandals,Men's Wear,Mansoura,3,49.75,149.24,2,February,Q1
+O0990,2024-10-25,C025,P002,Shorts,Kids' Wear,Madinaty,2,19.5,38.99,10,October,Q4
+O0991,2024-07-19,C068,P033,Sandals,Men's Wear,Tanta,4,170.29,681.17,7,July,Q3
+O0992,2024-08-31,C138,P033,Sandals,Men's Wear,Mansoura,1,196.43,196.43,8,August,Q3
+O0993,2024-05-18,C067,P041,Polo Shirt,Accessories,Tanta,3,160.7,482.09,5,May,Q2
+O0994,2024-10-17,C109,P013,Jacket,Kids' Wear,Alex,1,172.22,172.22,10,October,Q4
+O0995,2024-01-11,C146,P030,Hat,Women's Wear,Alex,4,55.98,223.9,1,January,Q1
+O0996,2024-11-12,C111,P033,Sandals,Men's Wear,Madinaty,3,192.52,577.56,11,November,Q4
+O0997,2024-06-06,C111,P013,Jacket,Kids' Wear,Alex,4,47.42,189.66,6,June,Q2
+O0998,2024-05-06,C034,P026,Scarf,Women's Wear,Alex,1,190.77,190.77,5,May,Q2
+O0999,2024-03-19,C111,P022,Hat,Women's Wear,Tanta,3,199.02,597.05,3,March,Q1
+O1000,2024-04-22,C008,P039,Scarf,Men's Wear,Alex,1,145.23,145.23,4,April,Q2
