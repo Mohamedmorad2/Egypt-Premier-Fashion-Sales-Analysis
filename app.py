@@ -192,7 +192,7 @@ st.markdown(
     There is no relationship between the unit price and quantity sold.
     </div>
     """, unsafe_allow_html=True)
-st.image(load_and_resize("Image/9.png"), caption="9. Analysis", use_column_width=False)
+st.image(load_and_resize("Image/9.png"), caption="9. Analysis", use_container_width=False)
 
 # 10. Sales Distribution by Region
 st.subheader("10. Sales Distribution by Region")
@@ -201,7 +201,7 @@ st.table({
     "Region": ["Mansoura", "Alex", "Tanta", "Madinaty", "New Cairo", "Nasr City"],
     "Total Sales (EGP)": [64890.15, 63305.60, 62583.19, 49515.69, 8845.99, 5549.57]
 })
-st.image(load_and_resize("Image/10.png"), caption="10. Analysis", use_column_width=False)
+st.image(load_and_resize("Image/10.png"), caption="10. Analysis", use_container_width=False)
 
 # 11. Seasonal Trends
 st.subheader("11. Seasonal Trends")
@@ -213,7 +213,7 @@ st.markdown(
     This is because May marks the beginning of summer—resulting in higher demand for clothing—and November signals the beginning of winter.
     </div>
     """, unsafe_allow_html=True)
-st.image(load_and_resize("Image/11.png"), caption="11. Analysis", use_column_width=False)
+st.image(load_and_resize("Image/11.png"), caption="11. Analysis", use_container_width=False)
 
 # 12. Percentage Contribution by Category
 st.subheader("12. Percentage Contribution by Category")
@@ -222,7 +222,7 @@ st.table({
     "Category": ["Women’s Wear", "Kids’ Wear", "Men’s Wear", "Accessories"],
     "Percentage": ["27.7%", "27.5%", "24.1%", "20.5%"]
 })
-st.image(load_and_resize("Image/12.png"), caption="12. Analysis", use_column_width=False)
+st.image(load_and_resize("Image/12.png"), caption="12. Analysis", use_container_width=False)
 
 # 13. Average Order Value
 st.subheader("13. Average Order Value")
@@ -235,7 +235,7 @@ st.markdown(
     - <strong>Maximum Sales:</strong> 798.34
     </div>
     """, unsafe_allow_html=True)
-st.image(load_and_resize("Image/13.png"), caption="13. Analysis", use_column_width=False)
+st.image(load_and_resize("Image/13.png"), caption="13. Analysis", use_container_width=False)
 
 # 14. Total Quantity Sold per Product
 st.subheader("14. Total Quantity Sold per Product")
@@ -244,7 +244,7 @@ st.table({
     "Product Name": ["Polo Shirt", "Scarf", "Jeans", "Socks", "Belt", "Gloves", "Jacket", "Hat", "Dress", "Sweater", "Shorts", "Watch", "Shoes", "Boots", "Sandals", "Skirt", "Blazer", "T-Shirt"],
     "Quantity": [290, 290, 245, 206, 190, 173, 151, 120, 105, 103, 102, 98, 93, 77, 67, 61, 56, 42]
 })
-st.image(load_and_resize("Image/14.png"), caption="14. Analysis", use_column_width=False)
+st.image(load_and_resize("Image/14.png"), caption="14. Analysis", use_container_width=False)
 
 # 15. Highest Revenue Product
 st.subheader("15. Highest Revenue Product")
@@ -256,7 +256,7 @@ st.markdown(
     - <strong>Total Sales:</strong> 30,220.11 EGP
     </div>
     """, unsafe_allow_html=True)
-st.image(load_and_resize("Image/15.png"), caption="15. Analysis", use_column_width=False)
+st.image(load_and_resize("Image/15.png"), caption="15. Analysis", use_container_width=False)
 
 # 16. Quarterly Sales Change
 st.subheader("16. Quarterly Sales Change")
@@ -266,7 +266,7 @@ st.markdown(
     There is a significant increase in sales in the third and fourth quarters compared to the first and second quarters.
     </div>
     """, unsafe_allow_html=True)
-st.image(load_and_resize("Image/16.png"), caption="16. Analysis", use_column_width=False)
+st.image(load_and_resize("Image/16.png"), caption="16. Analysis", use_container_width=False)
 
 # 17. Relationship Between Region and Best-Selling Category
 st.subheader("17. Relationship Between Region and Best-Selling Category")
@@ -276,7 +276,7 @@ st.markdown(
     Yes, there is a relationship; consumer preferences vary from one region to another.
     </div>
     """, unsafe_allow_html=True)
-st.image(load_and_resize("Image/17.png"), caption="17. Analysis", use_column_width=False)
+st.image(load_and_resize("Image/17.png"), caption="17. Analysis", use_container_width=False)
 
 # 18. Repeat vs. New Customers
 st.subheader("18. Repeat vs. New Customers")
@@ -288,7 +288,7 @@ st.markdown(
     - <strong>Returning Customers:</strong> 99.2%
     </div>
     """, unsafe_allow_html=True)
-st.image(load_and_resize("Image/18.png"), caption="18. Analysis", use_column_width=False)
+st.image(load_and_resize("Image/18.png"), caption="18. Analysis", use_container_width=False)
 
 # 19. Recommendations for Improvement
 st.subheader("19. Recommendations for Improvement")
