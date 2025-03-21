@@ -15,8 +15,6 @@
   - Integrated **Power BI reports** for in-depth business intelligence.
   - Real-time visualization of key sales metrics.
 
-- **Multi-Language Support:**
-  - Users can **switch between English and Arabic** dynamically.
 
 - **Data Handling:**
   - Reads and processes Excel data using **Pandas** and **OpenPyXL**.
@@ -43,12 +41,24 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+## Data Description
 
-## Usage
-1. **Select Language:** Choose between English and Arabic.
-2. **Analyze Sales Data:** View interactive charts and key business metrics.
-3. **Download Reports:** Get PDF reports for further analysis.
-4. **View Dashboard:** Access an embedded Power BI dashboard for advanced insights.
+The dataset used in this project consists of the following columns:
+
+- **Order_ID**: Unique identifier for each order.
+- **Date**: The date the order was placed.
+- **Customer_ID**: Unique identifier for each customer.
+- **Product_ID**: Unique identifier for each product.
+- **Product_Name**: The name of the product.
+- **Category**: The category the product belongs to.
+- **Region**: The geographical area where the order was placed.
+- **Quantity**: Number of units sold in the order.
+- **Unit_Price**: Price per unit of the product.
+- **Total_Sales**: The total revenue generated from the order.
+- **Month**: The month of the order.
+- **Month_name**: The name of the month for readability.
+- **Quarter**: The quarter of the year the order was placed in.
+
 
 ## Technologies Used
 - **NumPy** (Numerical Computing)
