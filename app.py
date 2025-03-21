@@ -76,7 +76,7 @@ with col1:
         )
 
     if btn_col2.button("Go to Dashboard"):
-        st.markdown("<meta http-equiv='refresh' content='0; url=https://your-dashboard-url.com'>", unsafe_allow_html=True)
+        st.markdown("<meta http-equiv='refresh' content='0; url=https://github.com/Mohamedmorad2/Town-Team-Sales-Analysis/tree/master/Dashborad'>", unsafe_allow_html=True)
 
 with col2:
     pass
