@@ -44,7 +44,8 @@ st.title("Town Team Sales Report")
 # Display header image (replace with your actual image file)
 header_image = Image.open("Image/44027548_2201662006513500_1850313580889505792_n_98818c77-464e-4c63-84a3-95a7b4730846.webp")
 header_image = header_image.resize((600, 400))
-st.image(header_image, use_column_width=False)
+st.image(header_image, use_container_width=False)
+
 
 
 col1, col2 = st.columns(2)
