@@ -69,10 +69,7 @@ The dataset used in this project consists of the following columns:
 - **Power BI** (Data Visualization)
 - **Git & GitHub** (Version Control)
 - **Python** (Data Processing & Web App)
-- **Streamlit** (Interactive UI)
-- **Pandas** (Data Manipulation)
 - **OpenPyXL** (Excel Handling)
-- **Power BI** (Data Visualization)
 - **Git & GitHub** (Version Control)
 
 
