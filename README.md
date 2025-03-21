@@ -1,6 +1,6 @@
 # Town Team Sales Analysis
 
-![Town Team Sales Analysis](Image/44027548_2201662006513500_1850313580889505792_n_98818c77-464e-4c63-84a3-95a7b4730846.webp)
+<img src="Image/44027548_2201662006513500_1850313580889505792_n_98818c77-464e-4c63-84a3-95a7b4730846.webp" alt="Town Team Sales Analysis" width="600">
 
 ## Overview
 **Town Team Sales Analysis** is a data-driven project designed to analyze and visualize sales performance. The project leverages **Streamlit** for interactive dashboards, **Power BI** for deep analytics, and **Pandas** for data processing. Users can gain valuable insights into sales trends, customer behaviors, and product performance through an intuitive web-based interface.
@@ -51,16 +51,18 @@ streamlit run app.py
 4. **View Dashboard:** Access an embedded Power BI dashboard for advanced insights.
 
 ## Technologies Used
+- **NumPy** (Numerical Computing)
+- **Pandas** (Data Manipulation)
+- **Matplotlib** (Data Visualization)
+- **Seaborn** (Statistical Data Visualization)
+- **Streamlit** (Interactive UI)
+- **Power BI** (Data Visualization)
+- **Git & GitHub** (Version Control)
 - **Python** (Data Processing & Web App)
 - **Streamlit** (Interactive UI)
 - **Pandas** (Data Manipulation)
 - **OpenPyXL** (Excel Handling)
 - **Power BI** (Data Visualization)
 - **Git & GitHub** (Version Control)
-
-## Future Enhancements
-- **AI-powered sales forecasting** using machine learning.
-- **Advanced customer segmentation** for targeted marketing strategies.
-- **Integration with databases** for real-time analytics.
 
 
