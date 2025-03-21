@@ -1,6 +1,6 @@
 # Town Team Sales Analysis
 
-![Town Team Sales Analysis](image/town_team_dashboard.png)
+![Town Team Sales Analysis](Image/44027548_2201662006513500_1850313580889505792_n_98818c77-464e-4c63-84a3-95a7b4730846.webp)
 
 ## Overview
 **Town Team Sales Analysis** is a data-driven project designed to analyze and visualize sales performance. The project leverages **Streamlit** for interactive dashboards, **Power BI** for deep analytics, and **Pandas** for data processing. Users can gain valuable insights into sales trends, customer behaviors, and product performance through an intuitive web-based interface.
@@ -63,9 +63,4 @@ streamlit run app.py
 - **Advanced customer segmentation** for targeted marketing strategies.
 - **Integration with databases** for real-time analytics.
 
-## License
-This project is licensed under the MIT License.
-
-## Contact
-For inquiries or contributions, contact **Mohamed Morad** via GitHub: [GitHub Profile](https://github.com/Mohamedmorad2).
 
