@@ -1,12 +1,6 @@
-<<<<<<< HEAD
+
 #Egypt’s Premier Fashion Sales Analysis
-=======
-# Town Team Sales Analysis
 
-<img src="Image/logo.webp" alt="Town Team Sales Analysis" height="500" width="100%">
->>>>>>> 07c3891cb7524bcb9917bd9242e4df606996827f
-
-## Overview
 **Egypt’s Premier Fashion Retail Analysis** is a data-driven project designed to analyze and visualize sales performance. The project leverages **Streamlit** for interactive dashboards, **Power BI** for deep analytics, and **Pandas** for data processing. Users can gain valuable insights into sales trends, customer behaviors, and product performance through an intuitive web-based interface.
 
 ## Features
@@ -78,5 +72,5 @@ The dataset used in this project consists of the following columns:
 
 
 ```markdown
-## Data Privacy Notice  
+# Data Privacy Notice  
 ⚠️ **Important:** Certain identifiers (e.g., customer names, product details) have been anonymized or modified to protect sensitive business and customer information.  
