@@ -3,8 +3,5 @@ pandas
 plotly
 openpyxl
 statsmodels
-<<<<<<< HEAD
 Pillow
-=======
-Pillow
->>>>>>> f7cc7f952d0697a2f2179b8d890a558fce033189
+
