@@ -1,13 +1,13 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
-
+import plotly.express as px
+import plotly.graph_objects as go
 
 
 
 # Set the page configuration
-st.set_page_config(page_title="Town Team Sales Report", layout="wide")
-
+st.set_page_config(page_title="Town Team Sales Report", layout="wide", page_icon="📊")
 
 # Custom CSS to center the content, reduce table width, and style answer text
 st.markdown(
@@ -39,10 +39,10 @@ st.markdown(
 )
 
 # Title of the report
-st.title("Town Team Sales Report")
+st.title("Town Team Sales Report 📊")
 
 # Display header image (replace with your actual image file)
-header_image = Image.open("Image/44027548_2201662006513500_1850313580889505792_n_98818c77-464e-4c63-84a3-95a7b4730846.webp")
+header_image = Image.open("Image/logo.webp")
 header_image = header_image.resize((600, 400))
 st.image(header_image, use_container_width=False)
 
@@ -102,6 +102,16 @@ st.markdown(
     </div>
     """, unsafe_allow_html=True)
 
+category_quantity = data.groupby('Category')['Quantity'].sum().reset_index()
+fig1 = px.bar(category_quantity,
+            x='Category',
+            y='Quantity',
+            color='Quantity',
+            title='Sales Quantity by Category',
+            labels={'Quantity': 'Total Quantity Sold', 'Category': 'Product Category'},
+            color_continuous_scale='Blues')
+st.plotly_chart(fig1)
+
 # 2. Highest Revenue Region
 st.subheader("2. Highest Revenue Region")
 st.markdown(
@@ -112,6 +122,14 @@ st.markdown(
     - <strong>Total Sales:</strong> 64,890.15 EGP
     </div>
     """, unsafe_allow_html=True)
+
+region_revenue = data.groupby('Region')['Total_Sales'].sum().reset_index()
+fig2 = px.pie(region_revenue,
+            names='Region',
+            values='Total_Sales',
+            title='Revenue Distribution by Region',
+            labels={'Total_Sales': 'Total Revenue (EGP)', 'Region': 'Sales Region'})
+st.plotly_chart(fig2)
 
 # 3. Month with Highest Sales
 st.subheader("3. Month with Highest Sales")
@@ -124,6 +142,16 @@ st.markdown(
     </div>
     """, unsafe_allow_html=True)
 
+data['Month'] = pd.to_datetime(data['Date']).dt.month_name()
+monthly_sales = data.groupby('Month')['Total_Sales'].sum().reset_index()
+fig3 = px.line(monthly_sales,
+            x='Month',
+            y='Total_Sales',
+            title='Monthly Sales Performance',
+            labels={'Total_Sales': 'Total Revenue (EGP)', 'Month': 'Calendar Month'},
+            markers=True)
+st.plotly_chart(fig3)
+
 # 4. Day with Highest Sales
 st.subheader("4. Day with Highest Sales")
 st.markdown(
@@ -134,6 +162,16 @@ st.markdown(
     - <strong>Total Sales:</strong> 2,855.21 EGP
     </div>
     """, unsafe_allow_html=True)
+
+daily_sales = data.groupby('Date')['Total_Sales'].sum().reset_index()
+fig4 = px.scatter(daily_sales,
+                x='Date',
+                y='Total_Sales',
+                title='Daily Sales Performance',
+                labels={'Total_Sales': 'Daily Revenue (EGP)', 'Date': 'Transaction Date'},
+                color='Total_Sales',
+                size='Total_Sales')
+st.plotly_chart(fig4)
 
 # 5. Top Spending Customer
 st.subheader("5. Top Spending Customer")
@@ -146,16 +184,37 @@ st.markdown(
     </div>
     """, unsafe_allow_html=True)
 
+customer_spending = data.groupby('Customer_ID')['Total_Sales'].sum().reset_index()
+top_customers = customer_spending.nlargest(10, 'Total_Sales')
+fig5 = px.bar(top_customers,
+            x='Customer_ID',
+            y='Total_Sales',
+            title='Top 10 Customers by Spending',
+            labels={'Total_Sales': 'Total Spending (EGP)', 'Customer_ID': 'Customer ID'},
+            color='Total_Sales')
+st.plotly_chart(fig5)
+
 # 6. Most Frequent Buyer
 st.subheader("6. Most Frequent Buyer")
 st.markdown(
     """
     **Which customer made the highest number of purchases?**  
     <div class="answer">
-    - <strong>Customer with the highest number of purchases:</strong> C099  <br>
+    - <strong>Customer with the highest number of purchases:</strong> C099  , C190<br>
     - <strong>Number of Purchases:</strong> 13
     </div>
     """, unsafe_allow_html=True)
+
+purchase_counts = data['Customer_ID'].value_counts().reset_index()
+purchase_counts.columns = ['Customer_ID', 'Purchase_Count']
+top_buyers = purchase_counts.nlargest(10, 'Purchase_Count')
+fig6 = px.bar(top_buyers,
+            x='Customer_ID',
+            y='Purchase_Count',
+            title='Top 10 Frequent Buyers',
+            labels={'Purchase_Count': 'Number of Purchases', 'Customer_ID': 'Customer ID'},
+            color='Purchase_Count')
+st.plotly_chart(fig6)
 
 # 7. Most Profitable Product
 st.subheader("7. Most Profitable Product")
@@ -168,6 +227,16 @@ st.markdown(
     </div>
     """, unsafe_allow_html=True)
 
+product_profit = data.groupby('Product_Name')['Total_Sales'].sum().reset_index()
+top_products = product_profit.nlargest(10, 'Total_Sales')
+fig7 = px.bar(top_products,
+            x='Product_Name',
+            y='Total_Sales',
+            title='Top 10 Products by Revenue',
+            labels={'Total_Sales': 'Total Revenue (EGP)', 'Product_Name': 'Product Name'},
+            color='Total_Sales')
+st.plotly_chart(fig7)
+
 # 8. Least Profitable Product
 st.subheader("8. Least Profitable Product")
 st.markdown(
@@ -179,12 +248,21 @@ st.markdown(
     </div>
     """, unsafe_allow_html=True)
 
+bottom_products = product_profit.nsmallest(10, 'Total_Sales')
+fig8 = px.bar(bottom_products,
+            x='Product_Name',
+            y='Total_Sales',
+            title='Bottom 10 Products by Revenue',
+            labels={'Total_Sales': 'Total Revenue (EGP)', 'Product_Name': 'Product Name'},
+            color='Total_Sales')
+st.plotly_chart(fig8)
+
 # For questions 9 to 19, each image is resized to (700, 400)
 def load_and_resize(image_path):
     img = Image.open(image_path)
     return img.resize((700, 400))
 
-# 9. Relationship Between Unit Price and Quantity Sold
+# Question 9: Relationship Between Unit Price and Quantity Sold
 st.subheader("9. Relationship Between Unit Price and Quantity Sold")
 st.markdown(
     """
@@ -192,39 +270,51 @@ st.markdown(
     There is no relationship between the unit price and quantity sold.
     </div>
     """, unsafe_allow_html=True)
-st.image(load_and_resize("Image/9.png"), caption="9. Analysis", use_container_width=False)
 
-# 10. Sales Distribution by Region
+category_counts = data['Category'].value_counts().reset_index()
+category_counts.columns = ['Category', 'Count']
+fig9 = px.bar(
+    category_counts,
+    x='Category',
+    y='Count',
+    title="Number of Orders per Category"
+)
+st.plotly_chart(fig9)
+
+# Question 10: Regional Sales (Bar Chart)
 st.subheader("10. Sales Distribution by Region")
 st.markdown("**What is the total sales for each region?**")
 st.table({
     "Region": ["Mansoura", "Alex", "Tanta", "Madinaty", "New Cairo", "Nasr City"],
     "Total Sales (EGP)": [64890.15, 63305.60, 62583.19, 49515.69, 8845.99, 5549.57]
 })
-st.image(load_and_resize("Image/10.png"), caption="10. Analysis", use_container_width=False)
+region_sales = data.groupby("Region")["Total_Sales"].sum().reset_index()
+fig10 = px.bar(
+    region_sales,
+    x="Region",
+    y="Total_Sales",
+    title="Sales by Region",
+    color="Region"
+)
+st.plotly_chart(fig10)
 
-# 11. Seasonal Trends
-st.subheader("11. Seasonal Trends")
-st.markdown(
-    """
-    **Are there any seasonal trends in the sales?**  
-    <div class="answer">
-    Yes, there is an increase in sales in May and November.  
-    This is because May marks the beginning of summer—resulting in higher demand for clothing—and November signals the beginning of winter.
-    </div>
-    """, unsafe_allow_html=True)
-st.image(load_and_resize("Image/11.png"), caption="11. Analysis", use_container_width=False)
-
-# 12. Percentage Contribution by Category
+# Question 12: Category Contribution (Pie Chart)
 st.subheader("12. Percentage Contribution by Category")
 st.markdown("**What is the percentage contribution of sales by each category?**")
 st.table({
     "Category": ["Women’s Wear", "Kids’ Wear", "Men’s Wear", "Accessories"],
     "Percentage": ["27.7%", "27.5%", "24.1%", "20.5%"]
 })
-st.image(load_and_resize("Image/12.png"), caption="12. Analysis", use_container_width=False)
+category_sales = data.groupby("Category")["Total_Sales"].sum().reset_index()
+fig12 = px.pie(
+    category_sales,
+    names="Category",
+    values="Total_Sales",
+    title="Sales by Category"
+)
+st.plotly_chart(fig12)
 
-# 13. Average Order Value
+# Question 13: Order Values (Bar Chart)
 st.subheader("13. Average Order Value")
 st.markdown(
     """
@@ -235,8 +325,16 @@ st.markdown(
     - <strong>Maximum Sales:</strong> 798.34
     </div>
     """, unsafe_allow_html=True)
-st.image(load_and_resize("Image/13.png"), caption="13. Analysis", use_container_width=False)
-
+sales_stats = data['Total_Sales'].agg(['min', 'mean', 'max']).reset_index()
+sales_stats.columns = ['Metric', 'Value']
+fig13 = px.bar(
+    sales_stats,
+    x='Metric',
+    y='Value',
+    title='Sales Statistics (Min, Mean, Max)',
+    color='Metric'
+)
+st.plotly_chart(fig13)
 # 14. Total Quantity Sold per Product
 st.subheader("14. Total Quantity Sold per Product")
 st.markdown("**What is the total quantity sold for each product?**")
@@ -244,7 +342,17 @@ st.table({
     "Product Name": ["Polo Shirt", "Scarf", "Jeans", "Socks", "Belt", "Gloves", "Jacket", "Hat", "Dress", "Sweater", "Shorts", "Watch", "Shoes", "Boots", "Sandals", "Skirt", "Blazer", "T-Shirt"],
     "Quantity": [290, 290, 245, 206, 190, 173, 151, 120, 105, 103, 102, 98, 93, 77, 67, 61, 56, 42]
 })
-st.image(load_and_resize("Image/14.png"), caption="14. Analysis", use_container_width=False)
+product_quantity = data.groupby("Product_Name")["Quantity"].sum().reset_index()
+fig14 = px.bar(
+product_quantity,
+x="Product_Name",
+y="Quantity",
+title="Quantity Sold per Product",
+labels={"Product_Name": "Product Name", "Quantity": "Quantity Sold"},
+color="Quantity",
+color_continuous_scale="Blues"
+)
+st.plotly_chart(fig14)
 
 # 15. Highest Revenue Product
 st.subheader("15. Highest Revenue Product")
@@ -256,9 +364,20 @@ st.markdown(
     - <strong>Total Sales:</strong> 30,220.11 EGP
     </div>
     """, unsafe_allow_html=True)
-st.image(load_and_resize("Image/15.png"), caption="15. Analysis", use_container_width=False)
+product_revenue = data.groupby("Product_Name")["Total_Sales"].sum().reset_index()
+top_product = product_revenue.nlargest(1, "Total_Sales")
+fig15 = px.bar(
+product_revenue,
+x="Product_Name",
+y="Total_Sales",
+title="Revenue by Product",
+color="Total_Sales",
+color_continuous_scale="Blues"
+)
+st.plotly_chart(fig15)
+st.markdown(f"**Top Revenue Product:** {top_product['Product_Name'].values[0]} ({top_product['Total_Sales'].values[0]:,.2f} EGP")
 
-# 16. Quarterly Sales Change
+# Question 16: Quarterly Trends (Line Chart)
 st.subheader("16. Quarterly Sales Change")
 st.markdown(
     """
@@ -266,9 +385,17 @@ st.markdown(
     There is a significant increase in sales in the third and fourth quarters compared to the first and second quarters.
     </div>
     """, unsafe_allow_html=True)
-st.image(load_and_resize("Image/16.png"), caption="16. Analysis", use_container_width=False)
+data["Quarter"] = pd.to_datetime(data["Date"]).dt.quarter
+quarterly_sales = data.groupby("Quarter")["Total_Sales"].sum().reset_index()
+fig16 = px.line(
+    quarterly_sales,
+    x="Quarter",
+    y="Total_Sales",
+    title="Quarterly Sales Trend"
+)
+st.plotly_chart(fig16)
 
-# 17. Relationship Between Region and Best-Selling Category
+# Question 17: Regional Category Sales (Bar Chart)
 st.subheader("17. Relationship Between Region and Best-Selling Category")
 st.markdown(
     """
@@ -276,9 +403,17 @@ st.markdown(
     Yes, there is a relationship; consumer preferences vary from one region to another.
     </div>
     """, unsafe_allow_html=True)
-st.image(load_and_resize("Image/17.png"), caption="17. Analysis", use_container_width=False)
+region_category = data.groupby(["Region", "Category"])["Total_Sales"].sum().reset_index()
+fig17 = px.bar(
+    region_category,
+    x="Region",
+    y="Total_Sales",
+    color="Category",
+    title="Regional Category Performance"
+)
+st.plotly_chart(fig17)
 
-# 18. Repeat vs. New Customers
+# Question 18: New vs. Returning Customers
 st.subheader("18. Repeat vs. New Customers")
 st.markdown(
     """
@@ -288,9 +423,19 @@ st.markdown(
     - <strong>Returning Customers:</strong> 99.2%
     </div>
     """, unsafe_allow_html=True)
-st.image(load_and_resize("Image/18.png"), caption="18. Analysis", use_container_width=False)
+customer_type = data["Customer_ID"].value_counts().reset_index()
+customer_type.columns = ["Customer_ID", "Purchase Count"]
+customer_type["Type"] = ["Returning" if count > 1 else "New" for count in customer_type["Purchase Count"]]
+customer_dist = customer_type["Type"].value_counts().reset_index()
+fig18 = px.pie(
+customer_dist,
+names="Type",
+values="count",
+title="Ratio of New and Returning Customers",
+)
+st.plotly_chart(fig18)
 
-# 19. Recommendations for Improvement
+# Recommendations
 st.subheader("19. Recommendations for Improvement")
 st.markdown(
     """
@@ -302,4 +447,3 @@ st.markdown(
     - <strong>Reevaluate Underperformers:</strong> Consider revising pricing or marketing strategies for products that are underperforming, such as T-Shirts.
     </div>
     """, unsafe_allow_html=True)
-
