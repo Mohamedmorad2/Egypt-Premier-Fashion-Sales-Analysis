@@ -5,4 +5,7 @@ openpyxl
 statsmodels
 Pillow
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 07c3891cb7524bcb9917bd9242e4df606996827f
