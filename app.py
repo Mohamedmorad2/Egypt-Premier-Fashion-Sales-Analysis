@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 
 
 # Set the page configuration
-st.set_page_config(page_title="Town Team Sales Report", layout="wide", page_icon="📊")
+st.set_page_config(page_title="Egypt’s Premier Fashion Sales Analysis Report", layout="wide", page_icon="📊")
 
 # Custom CSS to center the content, reduce table width, and style answer text
 st.markdown(
@@ -39,13 +39,7 @@ st.markdown(
 )
 
 # Title of the report
-st.title("Town Team Sales Report 📊")
-
-# Display header image (replace with your actual image file)
-header_image = Image.open("Image/logo.webp")
-header_image = header_image.resize((600, 400))
-st.image(header_image, use_container_width=False)
-
+st.title("Egypt’s Premier Fashion Sales Analysis 📊")
 
 
 col1, col2 = st.columns(2)
@@ -58,38 +52,38 @@ with col1:
     btn_col1, btn_col2 = st.columns(2)
 
     if lang == "English":
-        with open("Report/Report Town Team Sales - EN.pdf", "rb") as file:
+        with open("Report/Report Egypt’s Premier Fashion Sales Analysis -EN.pdf", "rb") as file:
             report_data = file.read()
         btn_col1.download_button(
             label="Download Report",
             data=report_data,
-            file_name="Report_Town_Team_Sales_EN.pdf",
+            file_name="Report Egypt’s Premier Fashion Sales Analysis -EN.pdf",
             mime="application/pdf"
         )
     else:
-        with open("Report/Report Town Team Sales - AR.pdf", "rb") as file:
+        with open("Report Egypt’s Premier Fashion Sales Analysis - AR.pdf", "rb") as file:
             report_data = file.read()
         btn_col1.download_button(
             label="Download Report",
             data=report_data,
-            file_name="Report_Town_Team_Sales_AR.pdf",
+            file_name="Report Egypt’s Premier Fashion Sales Analysis - AR.pdf",
             mime="application/pdf"
         )
 
     if btn_col2.button("Go to Dashboard"):
-        st.markdown("<meta http-equiv='refresh' content='0; url=https://github.com/Mohamedmorad2/Town-Team-Sales-Analysis/tree/master/Dashborad'>", unsafe_allow_html=True)
+        st.markdown("<meta http-equiv='refresh' content='0; url=https://github.com/Mohamedmorad2/Egypt-Premier-Fashion-Sales-Analysis/tree/master/Dashborad'>", unsafe_allow_html=True)
 
 with col2:
     pass
 
 
 # Load data from Excel and display it
-data = pd.read_excel('Data/New_data.xlsx')
-st.title('Town Team Sales Data')
+data = pd.read_excel('Data/Egypt Premier Fashion Retail Analysis.xlsx')
+st.title('Egypt’s Premier Fashion Retail Analysis')
 st.dataframe(data)
 
-# Section: Analytical Questions for Town Team Sales Data
-st.header("Analytical Questions for Town Team Sales Data")
+# Section: Analytical Questions for Egypt’s Premier Fashion Retail Analysis
+st.header("Analytical Questions for Egypt’s Premier Fashion Retail Analysis")
 
 # 1. Best-selling Category
 st.subheader("1. Best-selling Category")
@@ -462,3 +456,7 @@ st.markdown(
     - <strong>Reevaluate Underperformers:</strong> Consider revising pricing or marketing strategies for products that are underperforming, such as T-Shirts.
     </div>
     """, unsafe_allow_html=True)
+
+st.divider()
+#Note
+st.subheader("🔒 Note: Sensitive names and identifiers in the dataset have been anonymized to ensure data privacy.")

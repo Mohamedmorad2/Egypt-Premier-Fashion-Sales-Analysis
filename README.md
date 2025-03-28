@@ -1,9 +1,7 @@
-# Town Team Sales Analysis
-
-<img src="Image/44027548_2201662006513500_1850313580889505792_n_98818c77-464e-4c63-84a3-95a7b4730846.webp" alt="Town Team Sales Analysis" height="500" width="100%">
+#Egypt’s Premier Fashion Sales Analysis
 
 ## Overview
-**Town Team Sales Analysis** is a data-driven project designed to analyze and visualize sales performance. The project leverages **Streamlit** for interactive dashboards, **Power BI** for deep analytics, and **Pandas** for data processing. Users can gain valuable insights into sales trends, customer behaviors, and product performance through an intuitive web-based interface.
+**Egypt’s Premier Fashion Retail Analysis** is a data-driven project designed to analyze and visualize sales performance. The project leverages **Streamlit** for interactive dashboards, **Power BI** for deep analytics, and **Pandas** for data processing. Users can gain valuable insights into sales trends, customer behaviors, and product performance through an intuitive web-based interface.
 
 ## Features
 - **Sales Reports & Analysis:**
@@ -28,8 +26,8 @@ Ensure you have the following installed:
 
 ### **Step 1: Clone the Repository**
 ```bash
-git clone https://github.com/Mohamedmorad2/Town-Team-Sales-Analysis.git
-cd Town-Team-Sales-Analysis
+git clone https://github.com/Mohamedmorad2/Egypt-Premier-Fashion-Sales-Analysis.git
+cd Egypt-Premier-Fashion-Sales-Analysis
 ```
 
 ### **Step 2: Install Dependencies**
@@ -73,3 +71,6 @@ The dataset used in this project consists of the following columns:
 - **Git & GitHub** (Version Control)
 
 
+```markdown
+## Data Privacy Notice  
+⚠️ **Important:** Certain identifiers (e.g., customer names, product details) have been anonymized or modified to protect sensitive business and customer information.  
