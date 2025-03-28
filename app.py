@@ -78,7 +78,7 @@ with col2:
 
 
 # Load data from Excel and display it
-data = pd.read_excel('Data/Egypt Premier Fashion Sales Analysis.xlsx')
+data = pd.read_excel('Data/New_data.xlsx')
 st.title('Egypt’s Premier Fashion Retail Analysis')
 st.dataframe(data)
 
