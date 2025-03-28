@@ -298,6 +298,20 @@ fig10 = px.bar(
 )
 st.plotly_chart(fig10)
 
+# Question 11:How were sales distributed among different categories throughout the year?
+st.subheader("11. How were sales distributed among different categories throughout the year?")
+data['Month'] = pd.to_datetime(data['Date']).dt.month
+category_sales = data.groupby(['Month', 'Category'])['Total_Sales'].sum().reset_index()
+fig11 = px.line(
+    category_sales,
+    x='Month',
+    y='Total_Sales',
+    color='Category',
+    title='Monthly Sales Distribution by Category'
+)
+st.plotly_chart(fig11)
+
+
 # Question 12: Category Contribution (Pie Chart)
 st.subheader("12. Percentage Contribution by Category")
 st.markdown("**What is the percentage contribution of sales by each category?**")
@@ -335,6 +349,7 @@ fig13 = px.bar(
     color='Metric'
 )
 st.plotly_chart(fig13)
+
 # 14. Total Quantity Sold per Product
 st.subheader("14. Total Quantity Sold per Product")
 st.markdown("**What is the total quantity sold for each product?**")
